@@ -1,0 +1,123 @@
+---
+title: "Life Expectancy Analysis"
+output: html_notebook
+---
+
+```{r Revision History, message=FALSE, warning=FALSE, include=FALSE}
+#--------------------------------------------------------------------------#
+# Rmd file to load the clean data & generate the plots                     #
+#--------------------------------------------------------------------------#
+# Version         | Name        | Remarks                                  #
+#--------------------------------------------------------------------------#
+# 1.0             | Prathiba    | Data Cleaning & Loading the clean data   #
+# 1.1             | Derek       | Updated the plots                        #
+#--------------------------------------------------------------------------#
+```
+
+Load the library files
+```{r}
+library(here)
+library(tidyverse)
+```
+
+Load the cleaning script
+```{r}
+source (here("data_cleaning_wrangling/life_expectancy.R"))
+```
+
+Load the cleaned data
+```{r}
+life_expectancy <- read_csv(here("clean_data/life_expectancy.csv"))
+```
+
+# Derek life exp plot ideas
+
+```{r}
+life_expectancy_clean %>% 
+  distinct(type)
+```
+
+
+```{r}
+# life expectancy for Scotland over time
+# this could be coded to allow the user to select age & urban_rural_classification
+life_expectancy_clean %>% 
+  filter(type == "Scotland",
+         age == 0,
+         simd_quintiles == "All",
+         urban_rural_classification == "All") %>%
+  arrange(date_code) %>% 
+  ggplot() +
+  aes(x = date_code, y = le_value, group = sex, colour = sex) +
+  geom_line() +
+  geom_point() +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)) +
+  labs(
+    x = "\nYear",
+    y = "Life Expectancy (years)\n",
+    colour = "Sex"
+  )
+```
+
+```{r}
+# comparison of life expectancy for all local authorities 
+# this could be coded to allow the user to select local authority or NHS health board, date_code & age
+life_expectancy_clean %>% 
+  filter(type == "Local Authority",
+         age == 0,
+         simd_quintiles == "All",
+         urban_rural_classification == "All",
+         date_code == "2013-2015") %>%
+  ggplot() +
+  aes(x = name, y = le_value, fill = sex) +
+  geom_col(position = "dodge") +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)) +
+  labs(
+    x = "Local authority",
+    y = "Life Epectancy (years)\n",
+    fill = "Sex"
+  )
+```
+
+```{r}
+# same as above but filtered on NHS Health Boards rather than local authority
+life_expectancy_clean %>% 
+  filter(type == "NHS Health Board",
+         age == 0,
+         simd_quintiles == "All",
+         urban_rural_classification == "All",
+         date_code == "2013-2015") %>%
+  ggplot() +
+  aes(x = name, y = le_value, fill = sex) +
+  geom_col(position = "dodge") +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)) +
+  labs(
+    x = "\nLocal authority",
+    y = "Life Epectancy (years)\n",
+    fill = "Sex"
+  )
+```
+
+```{r}
+# shows what we would expect - life expectancy is higher for those living in the least
+# deprived areas compared with those living in the most deprived areas
+# sex code be coded as a user selectable option
+life_expectancy_clean %>%
+  filter(age == 0,
+         urban_rural_classification == "All",
+         sex == "Male",
+         simd_quintiles != "All") %>%
+  arrange(date_code) %>% 
+  ggplot() +
+  aes(x = date_code, y = le_value, group = simd_quintiles, colour = simd_quintiles) +
+  geom_line() +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)) +
+  labs(
+    x = "\nYear",
+    y = "Life Expenctancy (Years)\n",
+    colour = "SIMD\nQuintiles"
+  )
+```
+
+
+

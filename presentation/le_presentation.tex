@@ -1,0 +1,152 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={R Notebook},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifluatex
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+
+\title{R Notebook}
+\author{}
+\date{\vspace{-2.5em}}
+
+\begin{document}
+\maketitle
+
+\hypertarget{life-expectancy}{%
+\section{Life Expectancy}\label{life-expectancy}}
+
+\hypertarget{the-data}{%
+\section{The Data}\label{the-data}}
+
+\begin{itemize}
+\tightlist
+\item
+  What is life expectancy and why it was chosen? Life expectancy is a
+  statistical measure of the average time an organism is expected to
+  live, based on the year of its birth, its current age and any other
+  demographic factors including sex and geographic area. It is a useful
+  statistic as it provides a snapshot of the health of a population and
+  allows identification of inequalities between populations, or
+  geographic areas within a country. Life expectancy is also used to
+  inform pensions policy, research and teaching.
+\end{itemize}
+
+It does not, however, reflect how long a person will survive as it does
+not take into account changes in health care or other social factors
+which may occur during someone's lifetime.
+
+\begin{itemize}
+\item
+  The source of the data The dataset used was published by the Scottish
+  Government (statistics.gov.uk) and contains information on life
+  expectancy from birth and in age groups of 4 years until 90 years,
+  geographic area data, sex, for a period from 1991 through to 2019.
+\item
+  Why was this data selected? The data fits the brief and contain
+  sufficient information in order to arrive at, hopefully, meaningful
+  conclusions and observations. The data is designated as National
+  Statistics by the UK Statistics Authority ensuring that the data meet
+  the highest standards of trustworthiness, quality and public value.
+\end{itemize}
+
+\hypertarget{the-trend}{%
+\section{The Trend}\label{the-trend}}
+
+Unsurprisingly life expectancy, for a developed country such as
+Scotland, has increased over time.
+
+We also have available the 95\% confidence limits which is shown as a
+grey ribbon superimposed over each trend. Which is the the range of
+values that the actual life expectancy value of the population is likely
+to lie within. Estimates from larger populations, such as Scotland as a
+whole, has smaller confidence intervals and are therefore more accurate
+estimates than compared with smaller populations such as local
+authorities.
+
+Dumfries \& Galloway - my home area! - Male life expectancy has
+increased from approx. 72.5 years in 1991-1993 to 78 years in 2017-2019
+An increase of 5.5 yrs. - For females, that increase has been from
+approx. 77 years in 1991-1993 to just over 80 years in the period
+2017-2019 An increase of 3 yrs.
+
+Scotland - Life expectancy for males has increased from 71.5 years in
+1991-1993 to 77.5 years in 2017-2019 An increase of 6 years - For
+females, life expectancy has increased from 76.5 years to 81.5 years for
+the same time period. An increase of 5 years
+
+For Scotland as a whole, we see that life expectancy has remained
+virtually unchanged since 2013-2015. This is evident in most of
+Scotland's council areas where life expectancy has stalled since
+2013-2015 with some areas showing a decreasing life expectancy.
+
+The reasons for this are complicated.
+
+Why this is the case is a complicated subject with many moving parts -
+but it may be attributed to cuts in social care, NHS spending, removal
+of subsidies, the global financial crisis in 2008, and drug and alcohol
+abuse.
+
+\hypertarget{rank}{%
+\section{Rank}\label{rank}}
+
+highest life expectancy by local authority and health board lowest life
+expectancy by local authority and health board
+
+\end{document}

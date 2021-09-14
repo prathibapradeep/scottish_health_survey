@@ -1,0 +1,85 @@
+---
+title: "R Notebook"
+output: html_notebook
+editor_options: 
+  chunk_output_type: inline
+---
+
+Load libraries
+```{r}
+library(tidyverse)
+library(here)
+library(lubridate)
+```
+
+Read-in cleaned data
+```{r}
+
+here()
+
+drugs <- read_csv(here("clean_data/sdmd_combined_plus_zones.csv"))
+
+```
+
+Explore/investigate
+```{r}
+str(drugs)
+```
+
+
+
+Plot 1a: Drug abuse over time by number assessed, split by gender
+i.e. Trend  
+
+```{r}
+sdmd_combined_plus_zones %>% 
+  filter(sex != "All") %>% 
+  filter(number_assessed != 0) %>%
+  filter(!is.na(number_assessed)) %>%
+  filter(year != "2013/14") %>% 
+  arrange(year) %>% 
+  group_by(year, sex) %>% 
+  summarise(number_assessed_total = sum(number_assessed)) %>% 
+  ggplot(aes(x = year, y = number_assessed_total, group = sex, colour = sex)) +
+  geom_point() +
+  geom_line()
+```
+
+Plot 1b: Drug abuse over time by number assessed, split by age group  
+
+```{r}
+drugs_trend_age <- drugs %>% 
+  filter(age != "All" &
+         age != "Unknown" &
+         year != "2013/14") %>% 
+  filter(number_assessed != 0) %>%
+  filter(!is.na(number_assessed)) %>% 
+  arrange(year) %>% 
+  group_by(year, age) %>% 
+  summarise(number_assessed_total = sum(number_assessed), .groups = "drop") %>% 
+  ggplot(aes(x = year, y = number_assessed_total, group = age, colour = age)) +
+  geom_point() +
+  geom_line()
+  
+```
+
+
+Plot 2: Drug abuse by area (average for Scotland could also be added)
+i.e. Rank
+
+```{r}
+
+drugs_rank_la <- drugs %>% 
+  filter(type == "Local Authority" &
+         sex == "All" &
+         # age_group ==   &
+         number_assessed != 0 &
+         !is.na(number_assessed)) %>% 
+  group_by(name) %>% 
+  summarise(number_assessed_total = sum(number_assessed)) %>% 
+  ggplot(aes(x = name, y = number_assessed_total)) +
+  geom_col() +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1))
+  
+```
+

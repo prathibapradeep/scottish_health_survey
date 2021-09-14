@@ -1,0 +1,55 @@
+---
+title: "R Notebook"
+output:
+  html_document:
+    df_print: paged
+  html_notebook: default
+  pdf_document: default
+---
+
+# Life Expectancy
+
+# The Data
+
+ - What is life expectancy and why it was chosen?
+Life expectancy is a statistical measure of the average time an organism is expected to live, based on the year of its birth, its current age and any other demographic factors including sex and geographical area. It is a useful statistic as it provides a snapshot of the health of a population and allows identification of inequalities between populations, or geographic areas within a country. Life expectancy is also used in life insurance, pensions planning, social security, research and teaching.
+
+It does not, however, reflect how long a person will survive as it does not take into account changes in health care, personal health or other social factors which may occur during someone's lifetime.
+
+- The source of the data
+The dataset used was published by the Scottish Government (statistics.gov.uk) and contains information on life expectancy from birth and in age groups of 4 years until 90 years, geographic area data, sex, for a period from 1991 through to 2019.
+
+- Why was this data selected?
+The data fits the brief and contain sufficient information in order to arrive at, hopefully, meaningful conclusions and observations. The data is designated as National Statistics by the UK Statistics Authority ensuring that the data meet the highest standards of trustworthiness, quality and public value.
+
+# The Trend
+
+Unsurprisingly life expectancy, for a developed country such as Scotland, has increased over time.
+
+We also have available the 95% confidence limits which is shown as a grey ribbon superimposed over each trend. Which is the the range of values that the actual life expectancy value of the population is likely to lie within. Estimates from larger populations, such as Scotland as a whole, has smaller confidence intervals and are therefore more accurate estimates than compared with smaller populations such as local authorities.     
+
+Dumfries & Galloway - my home area!
+- Male life expectancy has increased from approx. 72.5 years in 1991-1993 to 78 years in 2017-2019 
+An increase of 5.5 yrs. 
+- For females, that increase has been from approx. 77 years in 1991-1993 to just over 80 years in the period 2017-2019 
+An increase of 3 yrs.
+
+Scotland 
+- Life expectancy for males has increased from 71.5 years in 1991-1993 to 77.5 years in 2017-2019 
+An increase of 6 years
+- For females, life expectancy has increased from 76.5 years to 81.5 years for the same time period.
+An increase of 5 years
+
+For Scotland as a whole, we see that life expectancy has remained virtually unchanged since 2013-2015. This is evident in most of Scotland's council areas where life expectancy has stalled since 2013-2015 with some areas showing a decreasing life expectancy.
+
+The reasons for this are complicated.
+
+Why this is the case is a complicated subject with many moving parts - but it may be attributed to cuts in social care, NHS spending, removal of subsidies, the global financial crisis in 2008, and drug and alcohol abuse.
+
+# Rank
+
+- In Scotland in 2019-2019, the life expectancy at birth was 77.1 years for males, and 81.1 years for females.
+- Life expectancy since 199-1993 has increased but has largely remained unchanged since 2013-2015.
+- Female life expectancy is lowest at birth in Glasgow (78.5 years) and highest in East Renfrewshire (84 years).
+- Male life expectancy is lowest at birth in Glasgow (73.6 years) and highest in East Dunbartonshire (80.5 years).
+- The majority of Scotland's council areas have seen a slow down in life expectancy since 2013-2015, with some seeing a decrease.

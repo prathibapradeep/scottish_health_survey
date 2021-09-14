@@ -1,0 +1,57 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+library(sf)
+library(leaflet)
+library(tidyverse)
+library(here)
+```
+
+#Paddy Hudson
+#This file contains experimental code chunks which are incomplete.  Do not use.
+
+
+```{r}
+lookup <- lookup %>% select(-2)
+
+hb <- dz11 %>% 
+  left_join(lookup, by = c("DataZone" = "DZ2011_Code"))
+```
+
+```{r}
+hb %>%
+  filter(HB_Name == "Grampian") %>% 
+  leaflet() %>% 
+  addPolygons()
+```
+
+
+
+```{r}
+grampian <- hb %>% 
+  group_by(HB_Name) %>%
+  filter(HB_Name == "Grampian") %>%
+  summarise(geometry = st_union(st_make_valid(geometry))) %>% 
+  leaflet() %>%
+  addPolygons() %>% 
+  addTiles()
+
+grampian
+```
+
+```{r}
+hb_polygons <- hb %>% 
+  group_by(HB_Name) %>%
+  summarise(geometry = st_union(st_make_valid(geometry))) %>% 
+  ungroup()
+  
+```
+
+```{r}
+hb_polygons %>% 
+  leaflet() %>% 
+  addPolygons()
+```

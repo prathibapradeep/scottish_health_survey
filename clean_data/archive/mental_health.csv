@@ -1,0 +1,729 @@
+feature_code,name,type,year,type_of_tenure,household_type,age,gender,mh_lower_ci,mh_upper_ci,mh_mean
+S12000040,West Lothian,Local Authority,2015,All,All,All,All,24.12,25.68,24.9
+S08000031,Greater Glasgow and Clyde,NHS Health Board,2014,All,All,All,All,24.1,24.43,24.26
+S12000039,West Dunbartonshire,Local Authority,2015,All,All,All,All,24.02,24.89,24.46
+S12000008,East Ayrshire,Local Authority,2016,All,All,16-34 years,All,23.2,25.66,24.43
+S08000016,Borders,NHS Health Board,2014,All,All,16-64 years,All,23.76,25.17,24.47
+S08000032,Lanarkshire,NHS Health Board,2017,All,All,35-64 years,All,24.33,25.03,24.68
+S12000035,Argyll and Bute,Local Authority,2015,All,All,All,All,24.7,25.63,25.16
+S12000033,Aberdeen City,Local Authority,2015,All,All,All,All,24.31,25.07,24.69
+S08000032,Lanarkshire,NHS Health Board,2017,All,All,16-64 years,All,24.37,24.98,24.67
+S12000030,Stirling,Local Authority,2015,All,All,All,All,23.99,24.84,24.41
+S12000035,Argyll and Bute,Local Authority,2015,Owned Outright,All,All,All,25.17,26.55,25.86
+S12000036,City of Edinburgh,Local Authority,2016,All,Pensioners,All,All,23.67,24.49,24.08
+S12000040,West Lothian,Local Authority,2015,Owned Outright,All,All,All,24.29,26.08,25.18
+S12000018,Inverclyde,Local Authority,2016,All,All,35-64 years,All,23.69,25.28,24.49
+S12000042,Dundee City,Local Authority,2015,Owned Outright,All,All,All,23.98,25.94,24.96
+S12000041,Angus,Local Authority,2016,All,Pensioners,All,All,23.51,24.76,24.14
+S08000015,Ayrshire and Arran,NHS Health Board,2016,Owned Mortgage/Loan,All,All,All,24.08,25.21,24.64
+S08000022,Highland,NHS Health Board,2015,All,All,16-34 years,All,23.5,24.85,24.17
+S12000047,Fife,Local Authority,2016,All,All,16-64 years,All,24.5,25.29,24.9
+S12000006,Dumfries and Galloway,Local Authority,2015,All,All,All,All,23.94,24.8,24.37
+S08000024,Lothian,NHS Health Board,2015,All,All,16-34 years,All,24.37,25.33,24.85
+S12000018,Inverclyde,Local Authority,2016,All,All,16-64 years,All,23.49,24.82,24.16
+S08000029,Fife,NHS Health Board,2016,All,All,All,All,24.55,25.22,24.88
+S92000003,Scotland,Scotland,2015,All,All,All,All,24.32,24.48,24.4
+S08000032,Lanarkshire,NHS Health Board,2017,All,With Children,All,All,24.31,25.22,24.77
+S08000032,Lanarkshire,NHS Health Board,2017,All,Pensioners,All,All,24.15,24.98,24.56
+S08000024,Lothian,NHS Health Board,2014,All,All,16-64 years,All,24.47,24.95,24.71
+S12000006,Dumfries and Galloway,Local Authority,2015,Rented,All,All,All,22.83,24.34,23.59
+S08000019,Forth Valley,NHS Health Board,2016,All,All,All,All,23.87,24.5,24.18
+S12000045,East Dunbartonshire,Local Authority,2016,All,All,16-64 years,All,24.57,25.76,25.17
+S12000005,Clackmannanshire,Local Authority,2015,All,All,All,All,23.61,24.75,24.18
+S08000020,Grampian,NHS Health Board,2016,All,All,All,All,24.29,24.73,24.51
+S12000042,Dundee City,Local Authority,2016,All,With Children,All,All,22.75,24.54,23.64
+S12000038,Renfrewshire,Local Authority,2016,All,Adults,All,All,23.23,24.28,23.76
+S92000003,Scotland,Scotland,2016,All,Pensioners,All,All,24.37,24.61,24.49
+S12000030,Stirling,Local Authority,2015,Owned Outright,All,All,All,24.56,26.11,25.33
+S12000045,East Dunbartonshire,Local Authority,2016,All,Pensioners,All,All,24.07,25.63,24.85
+S08000025,Orkney,NHS Health Board,2014,All,All,All,Female,24.71,26.95,25.83
+S08000031,Greater Glasgow and Clyde,NHS Health Board,2016,All,Adults,All,All,23.67,24.15,23.91
+S08000025,Orkney,NHS Health Board,2014,All,All,All,Male,25.46,28.37,26.91
+S12000050,North Lanarkshire,Local Authority,2015,All,All,All,All,24.42,25.29,24.85
+S12000042,Dundee City,Local Authority,2016,All,Pensioners,All,All,23.14,24.61,23.87
+S12000035,Argyll and Bute,Local Authority,2016,All,Pensioners,All,All,24.65,25.92,25.29
+S12000035,Argyll and Bute,Local Authority,2016,All,With Children,All,All,24.29,25.94,25.11
+S12000040,West Lothian,Local Authority,2015,Owned Mortgage/Loan,All,All,All,24.13,25.67,24.9
+S08000032,Lanarkshire,NHS Health Board,2016,Rented,All,All,All,22.64,23.56,23.1
+S12000034,Aberdeenshire,Local Authority,2015,Owned Outright,All,All,All,24.82,25.94,25.38
+S12000035,Argyll and Bute,Local Authority,2016,All,Adults,All,All,23.94,25.38,24.66
+S12000030,Stirling,Local Authority,2016,All,All,16-34 years,All,22.51,25.67,24.09
+S12000029,South Lanarkshire,Local Authority,2016,All,With Children,All,All,23.15,24.53,23.84
+S92000003,Scotland,Scotland,2015,Owned Mortgage/Loan,All,All,All,24.62,24.89,24.75
+S08000032,Lanarkshire,NHS Health Board,2015,All,All,All,Male,23.96,24.75,24.36
+S12000045,East Dunbartonshire,Local Authority,2016,All,With Children,All,All,24.63,26.55,25.59
+S12000021,North Ayrshire,Local Authority,2016,All,All,35-64 years,All,23.75,24.99,24.37
+S08000026,Shetland,NHS Health Board,2014,All,All,All,Female,24.29,25.82,25.06
+S12000041,Angus,Local Authority,2016,All,With Children,All,All,23.74,25.59,24.66
+S12000010,East Lothian,Local Authority,2016,All,All,35-64 years,All,23.68,25.03,24.35
+S12000036,City of Edinburgh,Local Authority,2015,Rented,All,All,All,23.81,24.79,24.3
+S08000032,Lanarkshire,NHS Health Board,2016,All,With Children,All,All,23.59,24.43,24.01
+S12000030,Stirling,Local Authority,2016,All,All,All,Female,23.33,25.19,24.26
+S12000018,Inverclyde,Local Authority,2015,Owned Mortgage/Loan,All,All,All,23.5,25.63,24.56
+S08000032,Lanarkshire,NHS Health Board,2016,All,All,65 years and over,All,24.05,25.01,24.53
+S12000014,Falkirk,Local Authority,2015,Owned Outright,All,All,All,24.73,25.94,25.33
+S12000033,Aberdeen City,Local Authority,2016,All,All,All,Male,23.86,24.74,24.3
+S12000017,Highland,Local Authority,2015,Owned Mortgage/Loan,All,All,All,24.06,25.42,24.74
+S12000036,City of Edinburgh,Local Authority,2016,All,All,All,Male,23.71,24.34,24.02
+S08000017,Dumfries and Galloway,NHS Health Board,2015,All,All,16-64 years,All,23.27,24.29,23.78
+S12000036,City of Edinburgh,Local Authority,2016,All,All,All,Female,23.74,24.3,24.02
+S12000041,Angus,Local Authority,2016,All,All,All,Female,23.76,25.13,24.45
+S92000003,Scotland,Scotland,2016,All,All,All,Female,24.17,24.37,24.27
+S12000011,East Renfrewshire,Local Authority,2015,Owned Outright,All,All,All,23.83,25.68,24.76
+S08000031,Greater Glasgow and Clyde,NHS Health Board,2015,All,All,All,All,23.83,24.15,23.99
+S12000028,South Ayrshire,Local Authority,2016,All,All,All,Male,23.81,25.41,24.61
+S08000022,Highland,NHS Health Board,2015,All,All,16-64 years,All,24.22,24.91,24.57
+S12000047,Fife,Local Authority,2015,Rented,All,All,All,22.85,23.83,23.34
+S12000047,Fife,Local Authority,2015,All,All,35-64 years,All,24.22,25.18,24.7
+S12000047,Fife,Local Authority,2015,All,All,All,Female,24.02,24.89,24.45
+S12000047,Fife,Local Authority,2015,All,All,All,Male,24.01,25.02,24.52
+S12000040,West Lothian,Local Authority,2015,All,All,35-64 years,All,24.13,25.44,24.78
+S12000042,Dundee City,Local Authority,2015,All,All,All,Female,23.76,25.56,24.66
+S12000047,Fife,Local Authority,2014,All,Pensioners,All,All,24.3,25.3,24.8
+S12000047,Fife,Local Authority,2014,All,Adults,All,All,23.66,24.76,24.21
+S12000047,Fife,Local Authority,2015,All,Pensioners,All,All,24.11,25.09,24.6
+S08000031,Greater Glasgow and Clyde,NHS Health Board,2016,All,All,All,Female,23.83,24.25,24.04
+S12000047,Fife,Local Authority,2014,Owned Outright,All,All,All,24.23,25.28,24.75
+S12000021,North Ayrshire,Local Authority,2015,Owned Mortgage/Loan,All,All,All,24.14,25.49,24.82
+S12000047,Fife,Local Authority,2016,All,All,All,Female,24.21,25.05,24.63
+S12000047,Fife,Local Authority,2016,All,All,All,Male,24.66,25.66,25.16
+S12000029,South Lanarkshire,Local Authority,2016,All,All,16-64 years,All,23.73,24.66,24.2
+S12000013,Na h-Eileanan Siar,Local Authority,2016,All,All,All,Male,24.39,26.11,25.25
+S12000020,Moray,Local Authority,2015,Owned Outright,All,All,All,24.13,25.64,24.89
+S12000021,North Ayrshire,Local Authority,2016,All,All,All,Male,24.13,25.62,24.87
+S12000023,Orkney Islands,Local Authority,2016,All,All,All,Female,24.77,27.72,26.24
+S12000020,Moray,Local Authority,2015,Owned Mortgage/Loan,All,All,All,23.56,24.99,24.28
+S12000020,Moray,Local Authority,2016,All,All,All,Female,23.71,24.94,24.32
+S08000015,Ayrshire and Arran,NHS Health Board,2014,All,All,All,Female,23.5,24.16,23.83
+S12000020,Moray,Local Authority,2016,All,All,16-64 years,All,23.11,24.35,23.73
+S12000006,Dumfries and Galloway,Local Authority,2016,All,All,16-64 years,All,23.5,24.49,24
+S12000033,Aberdeen City,Local Authority,2016,All,All,16-64 years,All,24.03,24.8,24.42
+S12000011,East Renfrewshire,Local Authority,2015,All,All,All,All,23.85,25,24.42
+S12000005,Clackmannanshire,Local Authority,2016,All,All,All,Female,22.88,24.5,23.69
+S08000016,Borders,NHS Health Board,2014,All,All,All,Male,23.36,25.11,24.23
+S12000035,Argyll and Bute,Local Authority,2016,All,All,35-64 years,All,23.93,25.3,24.62
+S08000032,Lanarkshire,NHS Health Board,2016,All,Pensioners,All,All,24.03,24.83,24.43
+S12000026,Scottish Borders,Local Authority,2015,Rented,All,All,All,22.73,24.76,23.74
+S92000003,Scotland,Scotland,2016,All,All,35-64 years,All,24.06,24.26,24.16
+S12000041,Angus,Local Authority,2016,All,All,35-64 years,All,23.31,24.51,23.91
+S08000016,Borders,NHS Health Board,2014,All,All,All,Female,24.36,25.67,25.01
+S12000017,Highland,Local Authority,2016,All,All,All,Male,24.08,25.03,24.56
+S12000019,Midlothian,Local Authority,2015,Rented,All,All,All,24.09,26.41,25.25
+S12000023,Orkney Islands,Local Authority,2016,All,All,All,Male,24.05,25.93,24.99
+S12000039,West Dunbartonshire,Local Authority,2016,All,All,35-64 years,All,23.73,25.05,24.39
+S12000036,City of Edinburgh,Local Authority,2016,All,All,35-64 years,All,23.67,24.31,23.99
+S12000038,Renfrewshire,Local Authority,2016,All,All,16-34 years,All,23.47,24.85,24.16
+S08000017,Dumfries and Galloway,NHS Health Board,2014,All,All,All,Female,23.5,24.53,24.02
+S12000028,South Ayrshire,Local Authority,2015,Rented,All,All,All,22,24.32,23.16
+S12000039,West Dunbartonshire,Local Authority,2016,All,All,16-34 years,All,25.38,27.44,26.41
+S08000031,Greater Glasgow and Clyde,NHS Health Board,2017,All,Pensioners,All,All,23.92,24.46,24.19
+S12000050,North Lanarkshire,Local Authority,2016,All,All,All,Female,24.09,24.95,24.52
+S12000049,Glasgow City,Local Authority,2014,All,All,All,Female,23.73,24.39,24.06
+S12000030,Stirling,Local Authority,2017,All,All,16-64 years,All,23.48,24.71,24.1
+S12000049,Glasgow City,Local Authority,2014,Owned Outright,All,All,All,23.6,24.63,24.12
+S12000050,North Lanarkshire,Local Authority,2016,All,All,All,Male,23.75,24.79,24.27
+S12000050,North Lanarkshire,Local Authority,2016,Owned Outright,All,All,All,24.21,25.57,24.89
+S12000049,Glasgow City,Local Authority,2014,All,All,16-34 years,All,24.06,24.9,24.48
+S12000028,South Ayrshire,Local Authority,2017,All,All,16-64 years,All,23.4,24.68,24.04
+S12000042,Dundee City,Local Authority,2017,All,All,16-64 years,All,23.15,24.31,23.73
+S12000050,North Lanarkshire,Local Authority,2016,All,All,16-64 years,All,24.05,24.83,24.44
+S12000049,Glasgow City,Local Authority,2016,All,With Children,All,All,23.36,24.23,23.79
+S08000031,Greater Glasgow and Clyde,NHS Health Board,2015,All,Pensioners,All,All,23.9,24.46,24.18
+S12000050,North Lanarkshire,Local Authority,2015,All,All,65 years and over,All,24.08,25.49,24.78
+S12000049,Glasgow City,Local Authority,2016,All,All,All,Male,23.27,23.97,23.62
+S12000049,Glasgow City,Local Authority,2016,Rented,All,All,All,22.81,23.52,23.16
+S08000031,Greater Glasgow and Clyde,NHS Health Board,2015,All,All,65 years and over,All,23.8,24.38,24.09
+S08000032,Lanarkshire,NHS Health Board,2014,Rented,All,All,All,23.43,24.25,23.84
+S08000031,Greater Glasgow and Clyde,NHS Health Board,2015,Rented,All,All,All,23.02,23.55,23.28
+S08000031,Greater Glasgow and Clyde,NHS Health Board,2015,All,All,All,Male,23.92,24.4,24.16
+S12000050,North Lanarkshire,Local Authority,2017,Rented,All,All,All,23.14,24.54,23.84
+S12000050,North Lanarkshire,Local Authority,2014,All,All,35-64 years,All,24.01,25.01,24.51
+S08000031,Greater Glasgow and Clyde,NHS Health Board,2016,All,All,16-34 years,All,24.02,24.62,24.32
+S08000031,Greater Glasgow and Clyde,NHS Health Board,2016,All,With Children,All,All,24.04,24.65,24.35
+S08000032,Lanarkshire,NHS Health Board,2014,All,All,16-34 years,All,24.8,25.91,25.35
+S12000049,Glasgow City,Local Authority,2016,All,All,16-64 years,All,23.4,23.94,23.67
+S12000048,Perth and Kinross,Local Authority,2017,All,All,16-64 years,All,23.05,24.16,23.6
+S08000032,Lanarkshire,NHS Health Board,2015,All,All,16-64 years,All,24.07,24.68,24.38
+S12000049,Glasgow City,Local Authority,2017,All,All,All,Male,23.37,24.13,23.75
+S08000031,Greater Glasgow and Clyde,NHS Health Board,2015,All,All,All,Female,23.63,24.03,23.83
+S12000013,Na h-Eileanan Siar,Local Authority,2017,All,All,16-64 years,All,23.49,24.66,24.08
+S12000050,North Lanarkshire,Local Authority,2017,All,Pensioners,All,All,23.93,25.2,24.56
+S12000039,West Dunbartonshire,Local Authority,2017,All,All,16-64 years,All,23.65,25.02,24.34
+S12000050,North Lanarkshire,Local Authority,2015,Owned Outright,All,All,All,24.65,26.12,25.38
+S12000050,North Lanarkshire,Local Authority,2015,All,Adults,All,All,24.1,25.62,24.86
+S08000031,Greater Glasgow and Clyde,NHS Health Board,2016,Owned Outright,All,All,All,24.27,24.8,24.53
+S12000050,North Lanarkshire,Local Authority,2017,All,All,All,Male,24.21,25.42,24.82
+S12000050,North Lanarkshire,Local Authority,2017,All,All,35-64 years,All,24.2,25.21,24.71
+S12000011,East Renfrewshire,Local Authority,2017,All,All,16-64 years,All,23.79,25.27,24.53
+S12000014,Falkirk,Local Authority,2017,All,All,16-64 years,All,23.53,24.46,23.99
+S12000038,Renfrewshire,Local Authority,2017,All,All,16-64 years,All,23.04,23.86,23.45
+S08000032,Lanarkshire,NHS Health Board,2014,All,All,All,Male,24.25,25.01,24.63
+S08000031,Greater Glasgow and Clyde,NHS Health Board,2014,All,All,All,Female,23.95,24.37,24.16
+S12000050,North Lanarkshire,Local Authority,2017,All,With Children,All,All,23.94,25.23,24.58
+S12000050,North Lanarkshire,Local Authority,2017,All,All,65 years and over,All,23.96,25.39,24.67
+S08000032,Lanarkshire,NHS Health Board,2015,All,All,35-64 years,All,23.98,24.65,24.31
+S08000031,Greater Glasgow and Clyde,NHS Health Board,2014,All,All,All,Male,24.14,24.63,24.38
+S12000026,Scottish Borders,Local Authority,2017,Rented,All,All,All,22.65,24.69,23.67
+S12000021,North Ayrshire,Local Authority,2017,Owned Outright,All,All,All,23.43,24.94,24.18
+S12000023,Orkney Islands,Local Authority,2017,Owned Mortgage/Loan,All,All,All,24.76,26.24,25.5
+S08000019,Forth Valley,NHS Health Board,2015,Owned Mortgage/Loan,All,All,All,24.51,25.33,24.92
+S12000030,Stirling,Local Authority,2017,Rented,All,All,All,22.92,24.98,23.95
+S12000029,South Lanarkshire,Local Authority,2017,Rented,All,All,All,22.97,24.33,23.65
+S12000034,Aberdeenshire,Local Authority,2014,All,All,16-34 years,All,23.73,25.36,24.54
+S08000020,Grampian,NHS Health Board,2015,Owned Outright,All,All,All,24.79,25.49,25.14
+S12000021,North Ayrshire,Local Authority,2017,Rented,All,All,All,21.81,23.17,22.49
+S12000011,East Renfrewshire,Local Authority,2016,Owned Outright,All,All,All,24.34,25.71,25.02
+S12000033,Aberdeen City,Local Authority,2016,All,All,All,All,24.19,24.89,24.54
+S12000038,Renfrewshire,Local Authority,2015,All,Pensioners,All,All,23.69,24.81,24.25
+S12000036,City of Edinburgh,Local Authority,2016,All,All,All,All,23.8,24.24,24.02
+S12000005,Clackmannanshire,Local Authority,2016,Owned Outright,All,All,All,23.55,25.74,24.64
+S12000006,Dumfries and Galloway,Local Authority,2016,Owned Mortgage/Loan,All,All,All,22.89,24.6,23.75
+S12000036,City of Edinburgh,Local Authority,2015,All,Adults,All,All,24.12,24.94,24.53
+S12000019,Midlothian,Local Authority,2014,Owned Mortgage/Loan,All,All,All,24.04,26.56,25.3
+S12000017,Highland,Local Authority,2017,Rented,All,All,All,22.25,23.48,22.87
+S12000006,Dumfries and Galloway,Local Authority,2017,Owned Mortgage/Loan,All,All,All,24.82,26.4,25.61
+S08000022,Highland,NHS Health Board,2015,Rented,All,All,All,23.47,24.45,23.96
+S08000022,Highland,NHS Health Board,2015,Owned Outright,All,All,All,24.7,25.55,25.12
+S12000019,Midlothian,Local Authority,2017,Owned Outright,All,All,All,24.08,26.34,25.21
+S12000014,Falkirk,Local Authority,2014,Owned Mortgage/Loan,All,All,All,23.92,25.3,24.61
+S12000027,Shetland Islands,Local Authority,2017,Owned Mortgage/Loan,All,All,All,23.56,25.1,24.33
+S12000013,Na h-Eileanan Siar,Local Authority,2014,Rented,All,All,All,22.34,24.71,23.52
+S12000034,Aberdeenshire,Local Authority,2017,Owned Outright,All,All,All,25.07,25.97,25.52
+S08000019,Forth Valley,NHS Health Board,2015,Owned Outright,All,All,All,24.76,25.64,25.2
+S12000013,Na h-Eileanan Siar,Local Authority,2017,Owned Outright,All,All,All,23.2,24.89,24.04
+S12000019,Midlothian,Local Authority,2014,Rented,All,All,All,23.66,26.72,25.19
+S12000013,Na h-Eileanan Siar,Local Authority,2015,All,All,16-64 years,All,23.86,25.19,24.53
+S12000011,East Renfrewshire,Local Authority,2017,Owned Outright,All,All,All,24.1,25.3,24.7
+S12000018,Inverclyde,Local Authority,2015,All,All,16-64 years,All,23.37,24.69,24.03
+S12000010,East Lothian,Local Authority,2015,All,All,16-34 years,All,24.6,27.34,25.97
+S08000031,Greater Glasgow and Clyde,NHS Health Board,2017,All,With Children,All,All,23.73,24.43,24.08
+S12000008,East Ayrshire,Local Authority,2015,All,All,35-64 years,All,23.03,24.14,23.59
+S12000045,East Dunbartonshire,Local Authority,2015,All,Pensioners,All,All,24.09,25.65,24.87
+S08000030,Tayside,NHS Health Board,2015,Rented,All,All,All,23.27,24.47,23.87
+S92000003,Scotland,Scotland,2015,All,Adults,All,All,24.08,24.33,24.2
+S08000030,Tayside,NHS Health Board,2015,All,All,All,Female,24.06,24.93,24.49
+S12000023,Orkney Islands,Local Authority,2016,All,All,All,All,24.67,26.56,25.62
+S12000020,Moray,Local Authority,2016,All,All,All,All,23.56,24.59,24.07
+S12000013,Na h-Eileanan Siar,Local Authority,2016,All,All,All,All,24.54,25.68,25.11
+S12000040,West Lothian,Local Authority,2015,All,Pensioners,All,All,23.82,25.33,24.58
+S12000017,Highland,Local Authority,2016,All,All,All,All,24.33,25.03,24.68
+S12000026,Scottish Borders,Local Authority,2016,All,All,All,All,24.08,25.16,24.62
+S12000041,Angus,Local Authority,2015,All,Adults,All,All,23.43,25.18,24.31
+S12000047,Fife,Local Authority,2016,All,All,All,All,24.55,25.22,24.88
+S12000018,Inverclyde,Local Authority,2016,Owned Mortgage/Loan,All,All,All,23.65,25.59,24.62
+S12000029,South Lanarkshire,Local Authority,2015,All,With Children,All,All,23.73,25.05,24.39
+S12000021,North Ayrshire,Local Authority,2016,Owned Outright,All,All,All,24.87,26.17,25.52
+S12000028,South Ayrshire,Local Authority,2015,All,With Children,All,All,23.67,25.2,24.44
+S12000023,Orkney Islands,Local Authority,2016,Owned Outright,All,All,All,24.5,26.66,25.58
+S12000036,City of Edinburgh,Local Authority,2015,All,Pensioners,All,All,24.7,25.79,25.25
+S12000030,Stirling,Local Authority,2016,All,All,All,All,23.65,24.86,24.25
+S12000045,East Dunbartonshire,Local Authority,2016,All,All,All,All,24.6,25.63,25.11
+S12000019,Midlothian,Local Authority,2016,Owned Outright,All,All,All,24.19,26.12,25.16
+S12000047,Fife,Local Authority,2016,Owned Outright,All,All,All,25.03,26.13,25.58
+S12000033,Aberdeen City,Local Authority,2015,All,With Children,All,All,24.19,25.77,24.98
+S12000014,Falkirk,Local Authority,2016,Owned Outright,All,All,All,23.75,25.15,24.45
+S12000029,South Lanarkshire,Local Authority,2015,All,Adults,All,All,23.63,24.62,24.12
+S12000013,Na h-Eileanan Siar,Local Authority,2016,Owned Mortgage/Loan,All,All,All,23.58,25.77,24.68
+S08000029,Fife,NHS Health Board,2017,All,All,35-64 years,All,23.72,24.62,24.17
+S08000019,Forth Valley,NHS Health Board,2014,All,Adults,All,All,23.78,24.68,24.23
+S08000030,Tayside,NHS Health Board,2017,All,All,35-64 years,All,23.58,24.39,23.99
+S08000016,Borders,NHS Health Board,2017,All,All,16-64 years,All,23.83,25.12,24.48
+S08000017,Dumfries and Galloway,NHS Health Board,2014,All,With Children,All,All,23.54,25.06,24.3
+S08000016,Borders,NHS Health Board,2017,All,All,All,Male,23.91,25.27,24.59
+S12000008,East Ayrshire,Local Authority,2014,All,All,All,Male,23.2,24.58,23.89
+S12000030,Stirling,Local Authority,2014,Owned Mortgage/Loan,All,All,All,25.07,26.43,25.75
+S08000015,Ayrshire and Arran,NHS Health Board,2017,All,All,All,Male,23.55,24.33,23.94
+S08000029,Fife,NHS Health Board,2017,All,All,65 years and over,All,24.02,25.02,24.52
+S08000030,Tayside,NHS Health Board,2017,All,All,16-64 years,All,23.46,24.14,23.8
+S12000008,East Ayrshire,Local Authority,2014,All,All,All,Female,22.39,23.81,23.1
+S92000003,Scotland,Scotland,2017,All,All,All,Male,24.17,24.4,24.29
+S08000028,Western Isles,NHS Health Board,2017,All,All,All,Female,23.19,24.45,23.82
+S12000006,Dumfries and Galloway,Local Authority,2014,All,All,All,Female,23.54,24.67,24.1
+S08000020,Grampian,NHS Health Board,2017,All,All,All,Female,24.46,25.06,24.76
+S92000003,Scotland,Scotland,2017,All,All,All,Female,24.08,24.29,24.19
+S12000028,South Ayrshire,Local Authority,2014,Owned Mortgage/Loan,All,All,All,23.5,24.98,24.24
+S08000029,Fife,NHS Health Board,2017,All,All,All,Male,23.65,24.64,24.14
+S08000030,Tayside,NHS Health Board,2017,All,All,All,Male,23.45,24.22,23.84
+S12000045,East Dunbartonshire,Local Authority,2017,All,All,All,All,23.88,25.01,24.44
+S08000024,Lothian,NHS Health Board,2015,Owned Mortgage/Loan,All,All,All,24.63,25.29,24.96
+S12000005,Clackmannanshire,Local Authority,2017,Owned Outright,All,All,All,23.7,25.64,24.67
+S12000040,West Lothian,Local Authority,2014,All,All,16-34 years,All,23.37,26.46,24.91
+S12000005,Clackmannanshire,Local Authority,2017,Rented,All,All,All,22.36,24.59,23.48
+S12000021,North Ayrshire,Local Authority,2017,All,All,All,All,23.04,23.95,23.5
+S12000047,Fife,Local Authority,2017,All,All,All,All,23.81,24.45,24.13
+S12000020,Moray,Local Authority,2014,Owned Mortgage/Loan,All,All,All,23.21,25.42,24.32
+S12000039,West Dunbartonshire,Local Authority,2017,All,All,All,All,23.86,25.07,24.46
+S08000024,Lothian,NHS Health Board,2017,All,All,16-64 years,All,23.93,24.34,24.13
+S12000049,Glasgow City,Local Authority,2014,All,With Children,All,All,24.28,25.29,24.78
+S12000028,South Ayrshire,Local Authority,2017,All,All,All,All,23.55,24.66,24.11
+S12000041,Angus,Local Authority,2014,All,All,16-64 years,All,23.93,25.2,24.57
+S08000019,Forth Valley,NHS Health Board,2017,All,All,16-64 years,All,23.77,24.42,24.09
+S12000017,Highland,Local Authority,2017,All,All,All,All,24.07,24.8,24.43
+S12000030,Stirling,Local Authority,2017,All,All,All,All,23.83,24.84,24.34
+S08000025,Orkney,NHS Health Board,2015,Owned Outright,All,All,All,25.4,26.99,26.2
+S12000008,East Ayrshire,Local Authority,2017,All,Pensioners,All,All,23.24,24.82,24.03
+S12000006,Dumfries and Galloway,Local Authority,2014,Owned Mortgage/Loan,All,All,All,23.4,25.26,24.33
+S12000010,East Lothian,Local Authority,2017,All,Pensioners,All,All,23.47,24.9,24.19
+S12000013,Na h-Eileanan Siar,Local Authority,2017,All,Pensioners,All,All,23.11,25.24,24.17
+S08000028,Western Isles,NHS Health Board,2014,Owned Outright,All,All,All,23.6,25.06,24.33
+S12000006,Dumfries and Galloway,Local Authority,2014,Owned Outright,All,All,All,24.34,25.63,24.99
+S12000036,City of Edinburgh,Local Authority,2017,Owned Mortgage/Loan,All,All,All,23.9,24.7,24.3
+S12000039,West Dunbartonshire,Local Authority,2017,Owned Outright,All,All,All,24.61,26.5,25.55
+S12000049,Glasgow City,Local Authority,2016,All,All,All,All,23.36,23.84,23.6
+S12000028,South Ayrshire,Local Authority,2014,All,All,16-34 years,All,22.36,24.15,23.25
+S12000008,East Ayrshire,Local Authority,2017,All,With Children,All,All,22.66,24.15,23.41
+S12000017,Highland,Local Authority,2017,Owned Outright,All,All,All,24.21,25.35,24.78
+S12000047,Fife,Local Authority,2017,Owned Mortgage/Loan,All,All,All,23.96,25.22,24.59
+S12000049,Glasgow City,Local Authority,2015,All,All,16-64 years,All,23.55,24.07,23.81
+S12000029,South Lanarkshire,Local Authority,2014,All,All,16-34 years,All,24.72,26.48,25.6
+S08000024,Lothian,NHS Health Board,2017,All,All,All,Male,23.9,24.44,24.17
+S12000006,Dumfries and Galloway,Local Authority,2014,All,All,All,Male,23.91,25.27,24.59
+S12000020,Moray,Local Authority,2015,All,All,16-64 years,All,23.73,24.8,24.26
+S12000040,West Lothian,Local Authority,2017,Owned Outright,All,All,All,24.42,25.93,25.17
+S12000041,Angus,Local Authority,2017,Owned Mortgage/Loan,All,All,All,23.8,25.63,24.72
+S12000011,East Renfrewshire,Local Authority,2014,Owned Outright,All,All,All,25.09,26.78,25.94
+S08000020,Grampian,NHS Health Board,2017,All,All,All,Male,24.5,25.16,24.83
+S12000049,Glasgow City,Local Authority,2014,All,All,All,All,24.01,24.49,24.25
+S08000025,Orkney,NHS Health Board,2017,All,All,All,Female,24.5,26.31,25.4
+S12000029,South Lanarkshire,Local Authority,2014,Owned Mortgage/Loan,All,All,All,24.46,25.66,25.06
+S12000035,Argyll and Bute,Local Authority,2017,Rented,All,All,All,24.09,25.84,24.96
+S08000017,Dumfries and Galloway,NHS Health Board,2015,Owned Outright,All,All,All,24.37,25.69,25.03
+S12000035,Argyll and Bute,Local Authority,2017,Owned Outright,All,All,All,25.96,27.49,26.72
+S12000045,East Dunbartonshire,Local Authority,2017,Rented,All,All,All,22.48,26.04,24.26
+S12000045,East Dunbartonshire,Local Authority,2017,Owned Outright,All,All,All,23.98,25.44,24.71
+S12000042,Dundee City,Local Authority,2017,Rented,All,All,All,22.45,23.67,23.06
+S12000042,Dundee City,Local Authority,2017,Owned Outright,All,All,All,23.66,25.42,24.54
+S08000016,Borders,NHS Health Board,2015,Owned Outright,All,All,All,24.54,25.85,25.2
+S12000033,Aberdeen City,Local Authority,2015,All,All,All,Female,24.39,25.44,24.91
+S12000021,North Ayrshire,Local Authority,2015,All,All,All,Female,23.74,24.96,24.35
+S12000035,Argyll and Bute,Local Authority,2015,All,All,All,Male,24.61,25.93,25.27
+S12000034,Aberdeenshire,Local Authority,2015,All,All,All,Male,24.49,25.57,25.03
+S12000036,City of Edinburgh,Local Authority,2015,All,All,All,Female,24.45,25.22,24.83
+S12000023,Orkney Islands,Local Authority,2015,All,All,All,Female,25.31,26.87,26.09
+S12000021,North Ayrshire,Local Authority,2015,All,All,All,Male,24.22,25.48,24.85
+S12000045,East Dunbartonshire,Local Authority,2015,All,All,35-64 years,All,24.37,25.57,24.97
+S92000003,Scotland,Scotland,2015,All,All,16-34 years,All,24.24,24.58,24.41
+S12000038,Renfrewshire,Local Authority,2015,All,All,All,Female,23.9,24.96,24.43
+S08000029,Fife,NHS Health Board,2014,Rented,All,All,All,23.29,24.29,23.79
+S08000029,Fife,NHS Health Board,2014,Owned Mortgage/Loan,All,All,All,24.51,25.66,25.09
+S12000048,Perth and Kinross,Local Authority,2015,All,All,All,Female,23.83,25.07,24.45
+S12000045,East Dunbartonshire,Local Authority,2015,All,All,All,Male,23.84,25.38,24.61
+S08000029,Fife,NHS Health Board,2015,Owned Outright,All,All,All,24.3,25.33,24.81
+S12000011,East Renfrewshire,Local Authority,2015,All,All,16-34 years,All,22.17,24.93,23.55
+S08000029,Fife,NHS Health Board,2014,All,All,All,Male,24.14,25.05,24.59
+S12000038,Renfrewshire,Local Authority,2015,All,All,35-64 years,All,23.68,24.76,24.22
+S12000042,Dundee City,Local Authority,2015,All,All,35-64 years,All,23.5,24.99,24.25
+S12000042,Dundee City,Local Authority,2015,All,All,16-34 years,All,23.67,26.35,25.01
+S12000039,West Dunbartonshire,Local Authority,2015,All,All,16-34 years,All,23.45,25.38,24.42
+S12000048,Perth and Kinross,Local Authority,2015,All,All,16-34 years,All,24.06,26.04,25.05
+S12000048,Perth and Kinross,Local Authority,2015,All,With Children,All,All,23.91,25.51,24.71
+S12000026,Scottish Borders,Local Authority,2015,All,All,All,Male,23.85,25.41,24.63
+S12000048,Perth and Kinross,Local Authority,2015,All,All,All,All,24.05,24.94,24.5
+S12000013,Na h-Eileanan Siar,Local Authority,2015,All,All,35-64 years,All,23.85,25.07,24.46
+S08000029,Fife,NHS Health Board,2014,All,With Children,All,All,24.2,25.42,24.81
+S12000027,Shetland Islands,Local Authority,2015,All,All,35-64 years,All,24.12,25.51,24.81
+S12000048,Perth and Kinross,Local Authority,2014,All,All,All,Male,24.03,25.6,24.81
+S12000048,Perth and Kinross,Local Authority,2014,All,All,All,Female,23.74,25.29,24.51
+S12000008,East Ayrshire,Local Authority,2015,All,Pensioners,All,All,22.76,23.97,23.37
+S12000019,Midlothian,Local Authority,2016,All,With Children,All,All,24.02,25.99,25
+S12000010,East Lothian,Local Authority,2015,All,Adults,All,All,24.78,26.45,25.62
+S12000019,Midlothian,Local Authority,2016,All,Adults,All,All,23.82,25.49,24.66
+S12000021,North Ayrshire,Local Authority,2016,All,With Children,All,All,23.79,25.76,24.78
+S12000010,East Lothian,Local Authority,2015,All,With Children,All,All,24.72,26.83,25.77
+S12000018,Inverclyde,Local Authority,2016,All,With Children,All,All,24.58,26.74,25.66
+S12000006,Dumfries and Galloway,Local Authority,2015,All,With Children,All,All,23.44,25.14,24.29
+S12000027,Shetland Islands,Local Authority,2016,All,Pensioners,All,All,24.11,25.93,25.02
+S12000048,Perth and Kinross,Local Authority,2016,All,Adults,All,All,23.62,25.11,24.37
+S08000032,Lanarkshire,NHS Health Board,2014,All,Adults,All,All,24.09,24.89,24.49
+S12000029,South Lanarkshire,Local Authority,2016,Owned Mortgage/Loan,All,All,All,24.68,25.83,25.26
+S12000048,Perth and Kinross,Local Authority,2016,Rented,All,All,All,23.12,24.6,23.86
+S12000021,North Ayrshire,Local Authority,2015,All,Pensioners,All,All,23.91,25.4,24.65
+S12000033,Aberdeen City,Local Authority,2016,Owned Outright,All,All,All,24.64,25.95,25.29
+S08000019,Forth Valley,NHS Health Board,2015,All,All,All,Male,24.23,24.99,24.61
+S12000030,Stirling,Local Authority,2016,Owned Outright,All,All,All,23.63,25.16,24.39
+S12000023,Orkney Islands,Local Authority,2016,All,Adults,All,All,23.88,25.9,24.89
+S12000026,Scottish Borders,Local Authority,2015,All,With Children,All,All,24.8,27.09,25.94
+S12000030,Stirling,Local Authority,2016,Owned Mortgage/Loan,All,All,All,23.16,25.78,24.47
+S12000047,Fife,Local Authority,2016,All,Pensioners,All,All,24.29,25.28,24.78
+S12000011,East Renfrewshire,Local Authority,2015,All,Adults,All,All,22.81,24.82,23.82
+S12000047,Fife,Local Authority,2016,All,With Children,All,All,24,25.34,24.67
+S12000011,East Renfrewshire,Local Authority,2015,All,Pensioners,All,All,24.34,26.15,25.25
+S12000014,Falkirk,Local Authority,2016,All,With Children,All,All,23.41,24.82,24.11
+S12000014,Falkirk,Local Authority,2016,All,Adults,All,All,23.39,24.72,24.05
+S12000010,East Lothian,Local Authority,2016,All,Adults,All,All,23.01,24.43,23.72
+S12000014,Falkirk,Local Authority,2015,All,With Children,All,All,24.71,26.03,25.37
+S12000011,East Renfrewshire,Local Authority,2016,All,Adults,All,All,22.95,24.95,23.95
+S12000005,Clackmannanshire,Local Authority,2015,All,Pensioners,All,All,24.22,26.21,25.21
+S12000026,Scottish Borders,Local Authority,2016,All,Adults,All,All,23.35,25.04,24.19
+S08000022,Highland,NHS Health Board,2015,All,All,All,Female,24.29,25.08,24.68
+S12000048,Perth and Kinross,Local Authority,2016,All,With Children,All,All,23.49,25.67,24.58
+S12000008,East Ayrshire,Local Authority,2016,All,Adults,All,All,22.94,24.52,23.73
+S12000010,East Lothian,Local Authority,2016,All,With Children,All,All,23.15,25.32,24.23
+S12000017,Highland,Local Authority,2015,All,Adults,All,All,23.59,24.6,24.09
+S12000038,Renfrewshire,Local Authority,2016,Rented,All,All,All,21.85,23.28,22.56
+S12000041,Angus,Local Authority,2016,Rented,All,All,All,22.42,23.94,23.18
+S12000026,Scottish Borders,Local Authority,2016,Owned Mortgage/Loan,All,All,All,23.8,25.95,24.88
+S12000019,Midlothian,Local Authority,2015,All,With Children,All,All,26.19,28.38,27.28
+S12000040,West Lothian,Local Authority,2016,Rented,All,All,All,22.94,24.54,23.74
+S12000027,Shetland Islands,Local Authority,2015,All,Pensioners,All,All,24.6,26.69,25.64
+S12000028,South Ayrshire,Local Authority,2016,Owned Mortgage/Loan,All,All,All,23.46,25.6,24.53
+S12000027,Shetland Islands,Local Authority,2016,Owned Mortgage/Loan,All,All,All,24.17,25.34,24.75
+S12000021,North Ayrshire,Local Authority,2015,All,With Children,All,All,23.6,25.12,24.36
+S08000032,Lanarkshire,NHS Health Board,2014,All,Pensioners,All,All,23.82,24.55,24.19
+S08000026,Shetland,NHS Health Board,2015,All,All,All,Female,24.16,25.69,24.93
+S12000020,Moray,Local Authority,2015,All,With Children,All,All,23.17,24.99,24.08
+S12000017,Highland,Local Authority,2015,All,Pensioners,All,All,24.37,25.56,24.97
+S12000018,Inverclyde,Local Authority,2015,All,Adults,All,All,23.02,24.72,23.87
+S12000045,East Dunbartonshire,Local Authority,2016,Rented,All,All,All,23.34,25.47,24.41
+S12000036,City of Edinburgh,Local Authority,2016,Rented,All,All,All,23.4,24.1,23.75
+S12000013,Na h-Eileanan Siar,Local Authority,2017,All,All,65 years and over,All,22.41,24.76,23.59
+S12000014,Falkirk,Local Authority,2017,All,All,16-34 years,All,23.13,24.8,23.97
+S12000042,Dundee City,Local Authority,2017,All,Adults,All,All,23.13,24.69,23.91
+S12000014,Falkirk,Local Authority,2017,All,All,65 years and over,All,23.46,24.93,24.19
+S12000017,Highland,Local Authority,2017,All,All,16-34 years,All,22.98,24.37,23.67
+S12000047,Fife,Local Authority,2017,All,Pensioners,All,All,24.27,25.23,24.75
+S12000047,Fife,Local Authority,2017,All,Adults,All,All,23.08,23.98,23.53
+S12000030,Stirling,Local Authority,2017,All,All,16-34 years,All,23.68,25.51,24.59
+S12000005,Clackmannanshire,Local Authority,2017,All,All,16-34 years,All,23.54,25.51,24.53
+S12000005,Clackmannanshire,Local Authority,2017,All,All,35-64 years,All,23.64,24.99,24.32
+S12000021,North Ayrshire,Local Authority,2017,All,All,All,Male,23.07,24.4,23.73
+S12000042,Dundee City,Local Authority,2017,All,All,All,Male,22.91,24.27,23.59
+S12000023,Orkney Islands,Local Authority,2017,All,All,All,Male,23.6,24.79,24.2
+S12000047,Fife,Local Authority,2017,All,All,All,Male,23.65,24.64,24.14
+S12000040,West Lothian,Local Authority,2017,All,All,All,Male,23.77,25.15,24.46
+S12000028,South Ayrshire,Local Authority,2017,All,All,All,Female,23.52,24.87,24.2
+S12000029,South Lanarkshire,Local Authority,2017,All,All,All,Male,24.45,25.44,24.95
+S12000010,East Lothian,Local Authority,2017,All,All,16-34 years,All,22.87,24.6,23.73
+S12000033,Aberdeen City,Local Authority,2017,All,All,All,Female,24,24.99,24.5
+S12000026,Scottish Borders,Local Authority,2017,All,All,All,Female,23.35,24.8,24.08
+S08000015,Ayrshire and Arran,NHS Health Board,2017,Owned Outright,All,All,All,23.84,24.68,24.26
+S08000025,Orkney,NHS Health Board,2015,All,All,65 years and over,All,25.54,27.94,26.74
+S08000025,Orkney,NHS Health Board,2017,All,All,All,All,24.24,25.38,24.81
+S08000029,Fife,NHS Health Board,2014,All,All,65 years and over,All,24.16,25.23,24.69
+S08000029,Fife,NHS Health Board,2016,All,All,65 years and over,All,24.28,25.39,24.84
+S08000020,Grampian,NHS Health Board,2017,All,All,All,All,24.57,25.03,24.8
+S08000029,Fife,NHS Health Board,2017,All,All,All,All,23.81,24.45,24.13
+S08000030,Tayside,NHS Health Board,2015,All,All,65 years and over,All,24.08,25.21,24.65
+S12000048,Perth and Kinross,Local Authority,2016,All,All,65 years and over,All,23.96,25.34,24.65
+S08000028,Western Isles,NHS Health Board,2014,All,All,65 years and over,All,23.47,25.19,24.33
+S12000047,Fife,Local Authority,2014,All,All,65 years and over,All,24.16,25.29,24.72
+S12000047,Fife,Local Authority,2015,All,All,65 years and over,All,23.91,24.94,24.42
+S08000022,Highland,NHS Health Board,2014,All,All,65 years and over,All,25.06,26.07,25.57
+S08000022,Highland,NHS Health Board,2016,All,All,65 years and over,All,24.7,25.65,25.18
+S12000034,Aberdeenshire,Local Authority,2017,All,All,35-64 years,All,24.46,25.27,24.87
+S12000019,Midlothian,Local Authority,2017,All,All,65 years and over,All,23.43,25.25,24.34
+S12000028,South Ayrshire,Local Authority,2017,All,All,65 years and over,All,23.57,24.98,24.28
+S12000028,South Ayrshire,Local Authority,2017,All,All,16-34 years,All,23.6,26,24.8
+S12000035,Argyll and Bute,Local Authority,2017,All,All,65 years and over,All,25.57,26.95,26.26
+S12000021,North Ayrshire,Local Authority,2017,All,All,65 years and over,All,23.55,25.15,24.35
+S12000023,Orkney Islands,Local Authority,2017,All,All,65 years and over,All,24.82,27.13,25.97
+S12000019,Midlothian,Local Authority,2017,All,All,35-64 years,All,23.42,24.7,24.06
+S12000018,Inverclyde,Local Authority,2017,All,All,35-64 years,All,23.28,24.48,23.88
+S12000026,Scottish Borders,Local Authority,2017,All,All,65 years and over,All,23.21,24.67,23.94
+S12000023,Orkney Islands,Local Authority,2017,All,Adults,All,All,23.42,24.79,24.11
+S12000027,Shetland Islands,Local Authority,2017,All,Adults,All,All,23.31,24.79,24.05
+S12000038,Renfrewshire,Local Authority,2017,All,Adults,All,All,22.91,24.07,23.49
+S12000021,North Ayrshire,Local Authority,2017,All,Adults,All,All,22.44,23.71,23.07
+S12000026,Scottish Borders,Local Authority,2017,All,Adults,All,All,23.64,25.4,24.52
+S12000028,South Ayrshire,Local Authority,2017,All,Pensioners,All,All,23.49,24.78,24.14
+S12000039,West Dunbartonshire,Local Authority,2017,All,All,65 years and over,All,23.9,25.91,24.9
+S12000045,East Dunbartonshire,Local Authority,2017,All,All,65 years and over,All,24.08,25.63,24.86
+S12000017,Highland,Local Authority,2017,All,All,All,Male,23.76,24.79,24.27
+S12000013,Na h-Eileanan Siar,Local Authority,2017,All,All,All,Male,23.19,24.92,24.05
+S12000013,Na h-Eileanan Siar,Local Authority,2017,All,All,All,Female,23.19,24.45,23.82
+S12000042,Dundee City,Local Authority,2017,All,All,65 years and over,All,23.51,25.02,24.27
+S12000035,Argyll and Bute,Local Authority,2017,All,All,All,Male,24.88,26.45,25.67
+S12000047,Fife,Local Authority,2017,All,All,16-34 years,All,23.01,24.44,23.72
+S12000045,East Dunbartonshire,Local Authority,2017,All,All,16-34 years,All,22.55,25.43,23.99
+S12000008,East Ayrshire,Local Authority,2017,All,All,All,Female,22.52,23.63,23.07
+S12000010,East Lothian,Local Authority,2017,All,All,All,Male,23.64,24.78,24.21
+S12000048,Perth and Kinross,Local Authority,2017,All,All,16-34 years,All,22,23.71,22.86
+S08000016,Borders,NHS Health Board,2017,All,Pensioners,All,All,23.39,24.67,24.03
+S08000026,Shetland,NHS Health Board,2017,All,With Children,All,All,23.98,26.12,25.05
+S08000025,Orkney,NHS Health Board,2017,All,With Children,All,All,24.06,26.2,25.13
+S08000016,Borders,NHS Health Board,2017,All,All,65 years and over,All,23.21,24.67,23.94
+S08000020,Grampian,NHS Health Board,2017,All,Adults,All,All,24.21,24.89,24.55
+S08000022,Highland,NHS Health Board,2017,All,Adults,All,All,24.06,25.05,24.55
+S08000024,Lothian,NHS Health Board,2017,All,Adults,All,All,23.65,24.16,23.9
+S08000029,Fife,NHS Health Board,2017,All,Adults,All,All,23.08,23.98,23.53
+S08000028,Western Isles,NHS Health Board,2017,All,Adults,All,All,23.16,24.61,23.88
+S08000028,Western Isles,NHS Health Board,2017,All,Pensioners,All,All,23.11,25.24,24.17
+S12000011,East Renfrewshire,Local Authority,2017,All,All,All,All,24.03,25.21,24.62
+S08000029,Fife,NHS Health Board,2017,All,With Children,All,All,23.7,25.13,24.42
+S08000022,Highland,NHS Health Board,2017,All,All,35-64 years,All,24.63,25.53,25.08
+S08000025,Orkney,NHS Health Board,2017,All,All,65 years and over,All,24.82,27.13,25.97
+S08000020,Grampian,NHS Health Board,2017,All,All,16-34 years,All,24.5,25.44,24.97
+S08000028,Western Isles,NHS Health Board,2017,All,All,16-34 years,All,23.19,25.48,24.34
+S08000024,Lothian,NHS Health Board,2017,All,All,16-34 years,All,23.85,24.54,24.2
+S12000027,Shetland Islands,Local Authority,2014,All,All,65 years and over,All,23.55,27.1,25.33
+S08000022,Highland,NHS Health Board,2017,Owned Outright,All,All,All,24.82,25.76,25.29
+S12000021,North Ayrshire,Local Authority,2014,All,All,65 years and over,All,23.72,25.35,24.53
+S12000020,Moray,Local Authority,2016,All,All,65 years and over,All,24.39,25.88,25.13
+S12000011,East Renfrewshire,Local Authority,2016,All,All,65 years and over,All,24.09,25.58,24.83
+S12000011,East Renfrewshire,Local Authority,2015,All,All,65 years and over,All,23.98,25.9,24.94
+S12000017,Highland,Local Authority,2016,All,All,65 years and over,All,24.41,25.61,25.01
+S12000020,Moray,Local Authority,2015,All,All,65 years and over,All,23.7,25.44,24.57
+S12000011,East Renfrewshire,Local Authority,2014,All,All,65 years and over,All,24.64,26.64,25.64
+S12000014,Falkirk,Local Authority,2015,All,All,65 years and over,All,24.46,25.94,25.2
+S08000016,Borders,NHS Health Board,2017,All,Adults,All,All,23.64,25.4,24.52
+S08000030,Tayside,NHS Health Board,2017,Owned Mortgage/Loan,All,All,All,24.07,25.17,24.62
+S08000029,Fife,NHS Health Board,2017,Owned Outright,All,All,All,24.23,25.18,24.71
+S08000028,Western Isles,NHS Health Board,2017,Owned Mortgage/Loan,All,All,All,22.92,25.04,23.98
+S08000026,Shetland,NHS Health Board,2017,Owned Outright,All,All,All,24.34,26.31,25.33
+S08000025,Orkney,NHS Health Board,2017,Owned Mortgage/Loan,All,All,All,24.76,26.24,25.5
+S08000020,Grampian,NHS Health Board,2017,Rented,All,All,All,23.61,24.44,24.02
+S08000019,Forth Valley,NHS Health Board,2017,Rented,All,All,All,22.9,23.96,23.43
+S08000017,Dumfries and Galloway,NHS Health Board,2017,Rented,All,All,All,22.78,24.53,23.66
+S08000016,Borders,NHS Health Board,2017,Owned Outright,All,All,All,23.89,25.17,24.53
+S12000045,East Dunbartonshire,Local Authority,2014,All,All,65 years and over,All,23.82,25.23,24.52
+S12000018,Inverclyde,Local Authority,2015,All,All,65 years and over,All,24.2,25.45,24.82
+S12000017,Highland,Local Authority,2014,All,All,65 years and over,All,25.09,26.44,25.77
+S08000016,Borders,NHS Health Board,2016,All,All,65 years and over,All,24.69,26.12,25.4
+S12000030,Stirling,Local Authority,2014,All,All,65 years and over,All,24.35,25.76,25.05
+S08000017,Dumfries and Galloway,NHS Health Board,2015,All,All,65 years and over,All,24.31,25.73,25.02
+S12000035,Argyll and Bute,Local Authority,2016,All,All,65 years and over,All,24.85,26.32,25.58
+S12000034,Aberdeenshire,Local Authority,2014,All,All,65 years and over,All,23.95,25.35,24.65
+S08000015,Ayrshire and Arran,NHS Health Board,2016,All,All,16-34 years,All,23.6,24.96,24.28
+S08000020,Grampian,NHS Health Board,2016,All,All,16-34 years,All,23.8,24.64,24.22
+S08000016,Borders,NHS Health Board,2016,All,All,16-34 years,All,23.39,26.15,24.77
+S08000026,Shetland,NHS Health Board,2016,Owned Mortgage/Loan,All,All,All,24.17,25.34,24.75
+S08000019,Forth Valley,NHS Health Board,2016,All,All,16-34 years,All,23.57,25.09,24.33
+S08000022,Highland,NHS Health Board,2016,All,With Children,All,All,23.97,25.04,24.51
+S08000025,Orkney,NHS Health Board,2016,All,With Children,All,All,23.41,28.81,26.11
+S08000024,Lothian,NHS Health Board,2016,All,With Children,All,All,23.92,24.65,24.28
+S08000022,Highland,NHS Health Board,2016,All,All,35-64 years,All,24.17,24.95,24.56
+S08000025,Orkney,NHS Health Board,2016,All,All,16-34 years,All,22.63,28.13,25.38
+S08000030,Tayside,NHS Health Board,2016,Owned Outright,All,All,All,23.97,24.82,24.4
+S08000029,Fife,NHS Health Board,2016,Owned Mortgage/Loan,All,All,All,24.57,25.74,25.16
+S08000019,Forth Valley,NHS Health Board,2016,All,Pensioners,All,All,23.81,24.94,24.37
+S12000006,Dumfries and Galloway,Local Authority,2016,All,All,65 years and over,All,23.59,24.73,24.16
+S12000005,Clackmannanshire,Local Authority,2014,All,All,65 years and over,All,23.52,25.72,24.62
+S08000016,Borders,NHS Health Board,2016,All,With Children,All,All,23.35,25.9,24.63
+S08000020,Grampian,NHS Health Board,2016,Rented,All,All,All,23.19,23.97,23.58
+S08000019,Forth Valley,NHS Health Board,2016,Rented,All,All,All,23.09,24.21,23.65
+S08000020,Grampian,NHS Health Board,2016,Owned Mortgage/Loan,All,All,All,24.49,25.21,24.85
+S08000017,Dumfries and Galloway,NHS Health Board,2016,All,Pensioners,All,All,23.72,24.74,24.23
+S08000022,Highland,NHS Health Board,2016,Rented,All,All,All,23.32,24.38,23.85
+S08000030,Tayside,NHS Health Board,2016,All,With Children,All,All,23.7,24.91,24.3
+S08000028,Western Isles,NHS Health Board,2016,All,Pensioners,All,All,25.29,27.42,26.35
+S08000017,Dumfries and Galloway,NHS Health Board,2016,Owned Outright,All,All,All,24.08,25.15,24.61
+S08000016,Borders,NHS Health Board,2016,All,All,All,Male,24.43,25.86,25.15
+S08000030,Tayside,NHS Health Board,2016,All,All,35-64 years,All,23.52,24.25,23.88
+S08000017,Dumfries and Galloway,NHS Health Board,2016,All,All,All,Female,23.53,24.62,24.08
+S08000017,Dumfries and Galloway,NHS Health Board,2016,All,All,16-64 years,All,23.5,24.49,24
+S08000022,Highland,NHS Health Board,2016,All,All,16-64 years,All,24.29,24.95,24.62
+S12000039,West Dunbartonshire,Local Authority,2016,All,All,65 years and over,All,22.66,24.76,23.71
+S12000040,West Lothian,Local Authority,2016,All,All,65 years and over,All,23.13,24.78,23.96
+S12000005,Clackmannanshire,Local Authority,2015,All,All,65 years and over,All,24,25.87,24.94
+S92000003,Scotland,Scotland,2014,All,All,65 years and over,All,24.36,24.63,24.49
+S08000022,Highland,NHS Health Board,2016,All,All,All,Male,24.39,25.15,24.77
+S08000026,Shetland,NHS Health Board,2016,All,All,All,Female,24.24,25.47,24.85
+S08000029,Fife,NHS Health Board,2016,All,All,All,Female,24.21,25.05,24.63
+S08000022,Highland,NHS Health Board,2016,All,All,All,Female,24.38,25.14,24.76
+S12000038,Renfrewshire,Local Authority,2017,All,Pensioners,All,All,23.6,25.02,24.31
+S12000039,West Dunbartonshire,Local Authority,2017,All,Pensioners,All,All,23.88,25.69,24.78
+S12000034,Aberdeenshire,Local Authority,2017,All,With Children,All,All,24.74,26.14,25.44
+S12000030,Stirling,Local Authority,2017,All,Pensioners,All,All,24.12,25.62,24.87
+S12000019,Midlothian,Local Authority,2017,All,Adults,All,All,22.71,23.95,23.33
+S12000017,Highland,Local Authority,2017,All,With Children,All,All,23.75,25.17,24.46
+S12000017,Highland,Local Authority,2017,All,Adults,All,All,23.74,24.95,24.35
+S12000038,Renfrewshire,Local Authority,2014,All,All,16-64 years,All,24.15,25.11,24.63
+S12000039,West Dunbartonshire,Local Authority,2014,All,All,16-64 years,All,24.06,25.14,24.6
+S12000006,Dumfries and Galloway,Local Authority,2014,All,All,16-64 years,All,23.81,24.88,24.34
+S12000036,City of Edinburgh,Local Authority,2014,All,All,16-64 years,All,24.5,25.11,24.8
+S12000030,Stirling,Local Authority,2015,All,All,16-64 years,All,23.81,24.78,24.3
+S12000038,Renfrewshire,Local Authority,2015,All,All,16-64 years,All,24.06,24.95,24.51
+S12000034,Aberdeenshire,Local Authority,2015,All,All,16-64 years,All,24.52,25.41,24.96
+S08000020,Grampian,NHS Health Board,2014,All,All,All,All,24.45,24.89,24.67
+S08000022,Highland,NHS Health Board,2014,All,All,All,All,24.57,25.16,24.86
+S92000003,Scotland,Scotland,2015,All,All,16-64 years,All,24.26,24.45,24.36
+S12000008,East Ayrshire,Local Authority,2014,All,All,16-64 years,All,22.81,24.01,23.41
+S12000013,Na h-Eileanan Siar,Local Authority,2014,All,All,16-64 years,All,23.58,25.44,24.51
+S08000022,Highland,NHS Health Board,2015,All,All,All,All,24.4,24.99,24.69
+S08000024,Lothian,NHS Health Board,2015,All,All,All,All,24.53,25.02,24.78
+S08000024,Lothian,NHS Health Board,2014,All,All,All,All,24.5,24.92,24.71
+S08000028,Western Isles,NHS Health Board,2015,Owned Mortgage/Loan,All,All,All,24.19,25.71,24.95
+S12000050,North Lanarkshire,Local Authority,2015,All,Pensioners,All,All,24.16,25.48,24.82
+S12000049,Glasgow City,Local Authority,2016,All,All,16-34 years,All,23.74,24.52,24.13
+S08000016,Borders,NHS Health Board,2015,All,All,35-64 years,All,23.93,25.47,24.7
+S08000017,Dumfries and Galloway,NHS Health Board,2015,All,All,16-34 years,All,23.35,25.22,24.29
+S08000017,Dumfries and Galloway,NHS Health Board,2015,All,Pensioners,All,All,24.18,25.43,24.81
+S08000019,Forth Valley,NHS Health Board,2015,All,All,35-64 years,All,24.01,24.72,24.37
+S08000020,Grampian,NHS Health Board,2014,All,All,16-34 years,All,24.2,25.05,24.63
+S08000019,Forth Valley,NHS Health Board,2014,All,All,16-34 years,All,23.95,25.21,24.58
+S08000016,Borders,NHS Health Board,2014,All,All,16-34 years,All,23.38,26.42,24.9
+S08000024,Lothian,NHS Health Board,2015,All,With Children,All,All,24.35,25.16,24.76
+S08000028,Western Isles,NHS Health Board,2015,All,With Children,All,All,24.09,25.51,24.8
+S08000022,Highland,NHS Health Board,2015,All,With Children,All,All,24.14,25.38,24.76
+S08000024,Lothian,NHS Health Board,2014,All,Pensioners,All,All,24.51,25.19,24.85
+S08000028,Western Isles,NHS Health Board,2014,All,With Children,All,All,22.71,25.7,24.2
+S08000017,Dumfries and Galloway,NHS Health Board,2015,All,Adults,All,All,22.88,24.32,23.6
+S08000025,Orkney,NHS Health Board,2014,All,With Children,All,All,24.4,28.65,26.52
+S08000028,Western Isles,NHS Health Board,2015,All,Pensioners,All,All,24.64,26.05,25.35
+S08000028,Western Isles,NHS Health Board,2014,All,Pensioners,All,All,23.74,25.26,24.5
+S08000026,Shetland,NHS Health Board,2015,All,Adults,All,All,23.47,25.02,24.25
+S08000020,Grampian,NHS Health Board,2014,Owned Outright,All,All,All,24.69,25.35,25.02
+S08000022,Highland,NHS Health Board,2014,Rented,All,All,All,23.87,24.94,24.4
+S08000028,Western Isles,NHS Health Board,2015,All,All,All,All,24.14,25.11,24.62
+S08000019,Forth Valley,NHS Health Board,2014,Owned Outright,All,All,All,24.4,25.42,24.91
+S08000020,Grampian,NHS Health Board,2014,All,Adults,All,All,24.17,24.8,24.48
+S08000022,Highland,NHS Health Board,2014,All,With Children,All,All,24.15,25.29,24.72
+S08000024,Lothian,NHS Health Board,2014,All,With Children,All,All,24.28,25.08,24.68
+S08000025,Orkney,NHS Health Board,2014,All,All,35-64 years,All,24.19,26.23,25.21
+S08000024,Lothian,NHS Health Board,2014,Rented,All,All,All,24.02,24.73,24.37
+S08000015,Ayrshire and Arran,NHS Health Board,2015,All,All,16-34 years,All,23.45,24.52,23.99
+S08000026,Shetland,NHS Health Board,2014,All,All,16-34 years,All,23.98,26.01,24.99
+S08000022,Highland,NHS Health Board,2014,All,All,35-64 years,All,24.07,24.84,24.45
+S08000026,Shetland,NHS Health Board,2015,All,All,All,All,24.41,25.59,25
+S08000016,Borders,NHS Health Board,2014,Rented,All,All,All,22.99,24.7,23.85
+S12000040,West Lothian,Local Authority,2014,All,All,All,All,23.72,24.89,24.3
+S12000023,Orkney Islands,Local Authority,2014,Owned Mortgage/Loan,All,All,All,25.73,28.84,27.29
+S12000026,Scottish Borders,Local Authority,2014,Owned Outright,All,All,All,24.21,26.93,25.57
+S12000041,Angus,Local Authority,2014,All,All,All,All,24.07,25.15,24.61
+S12000021,North Ayrshire,Local Authority,2014,All,All,35-64 years,All,23.57,24.97,24.27
+S12000028,South Ayrshire,Local Authority,2014,All,Pensioners,All,All,23.36,24.91,24.13
+S12000027,Shetland Islands,Local Authority,2014,All,Adults,All,All,23.95,26.04,24.99
+S12000027,Shetland Islands,Local Authority,2014,All,With Children,All,All,24.87,26.7,25.78
+S12000026,Scottish Borders,Local Authority,2014,All,All,All,Female,24.32,25.93,25.13
+S92000003,Scotland,Scotland,2014,Owned Outright,All,All,All,24.74,25,24.87
+S12000027,Shetland Islands,Local Authority,2014,All,All,All,Female,24.25,25.85,25.05
+S12000027,Shetland Islands,Local Authority,2014,All,All,All,Male,24.62,26.77,25.7
+S12000020,Moray,Local Authority,2014,All,All,All,Male,24.65,26.07,25.36
+S12000023,Orkney Islands,Local Authority,2014,All,All,All,Female,24.94,27.13,26.03
+S12000045,East Dunbartonshire,Local Authority,2014,Owned Outright,All,All,All,23.96,25.37,24.67
+S12000039,West Dunbartonshire,Local Authority,2014,Owned Mortgage/Loan,All,All,All,24.36,26.04,25.2
+S12000019,Midlothian,Local Authority,2014,All,All,All,Female,24.57,26.6,25.59
+S12000017,Highland,Local Authority,2014,All,All,All,Female,24.2,25.3,24.75
+S12000018,Inverclyde,Local Authority,2014,All,With Children,All,All,22.93,24.66,23.8
+S12000034,Aberdeenshire,Local Authority,2014,Rented,All,All,All,23.44,24.96,24.2
+S12000027,Shetland Islands,Local Authority,2014,Owned Mortgage/Loan,All,All,All,24.67,26.66,25.67
+S12000027,Shetland Islands,Local Authority,2014,Rented,All,All,All,22.95,25.71,24.33
+S12000041,Angus,Local Authority,2014,Owned Outright,All,All,All,24.25,25.92,25.08
+S12000034,Aberdeenshire,Local Authority,2014,All,Pensioners,All,All,23.74,25.08,24.41
+S12000038,Renfrewshire,Local Authority,2014,All,Pensioners,All,All,23.13,24.18,23.65
+S12000036,City of Edinburgh,Local Authority,2014,All,With Children,All,All,24.35,25.42,24.88
+S12000030,Stirling,Local Authority,2014,All,Pensioners,All,All,24.43,25.62,25.02
+S12000038,Renfrewshire,Local Authority,2014,All,Adults,All,All,23.88,25.11,24.49
+S12000036,City of Edinburgh,Local Authority,2014,All,All,All,All,24.56,25.1,24.83
+S12000021,North Ayrshire,Local Authority,2014,All,All,16-34 years,All,22.22,24.17,23.19
+S12000019,Midlothian,Local Authority,2014,All,All,16-34 years,All,24.65,28.59,26.62
+S12000020,Moray,Local Authority,2014,All,All,All,All,24.58,25.64,25.11
+S12000020,Moray,Local Authority,2014,All,All,35-64 years,All,24,25.62,24.81
+S12000041,Angus,Local Authority,2014,All,Adults,All,All,23.99,25.77,24.88
+S12000045,East Dunbartonshire,Local Authority,2014,All,Adults,All,All,24.15,25.7,24.93
+S12000033,Aberdeen City,Local Authority,2014,All,Adults,All,All,23.86,24.79,24.33
+S12000045,East Dunbartonshire,Local Authority,2014,All,Pensioners,All,All,23.76,25.09,24.43
+S12000042,Dundee City,Local Authority,2014,All,Adults,All,All,22.85,24.22,23.53
+S12000040,West Lothian,Local Authority,2014,All,With Children,All,All,22.97,25.52,24.25
+S12000040,West Lothian,Local Authority,2014,All,All,All,Female,23.83,25.34,24.59
+S12000038,Renfrewshire,Local Authority,2014,All,All,All,Female,23.9,24.79,24.34
+S12000005,Clackmannanshire,Local Authority,2014,All,Adults,All,All,22.21,23.78,22.99
+S12000045,East Dunbartonshire,Local Authority,2014,All,All,All,Female,24.28,25.48,24.88
+S12000005,Clackmannanshire,Local Authority,2014,All,With Children,All,All,23.18,25.68,24.43
+S12000017,Highland,Local Authority,2014,All,Adults,All,All,24.08,25.24,24.66
+S12000014,Falkirk,Local Authority,2014,All,Pensioners,All,All,23.75,25.22,24.49
+S12000021,North Ayrshire,Local Authority,2014,All,Adults,All,All,22.7,24.23,23.46
+S12000006,Dumfries and Galloway,Local Authority,2014,All,With Children,All,All,23.48,25.22,24.35
+S12000019,Midlothian,Local Authority,2014,All,Pensioners,All,All,24.12,25.86,24.99
+S12000014,Falkirk,Local Authority,2014,All,All,35-64 years,All,23.6,24.74,24.17
+S12000011,East Renfrewshire,Local Authority,2014,All,All,All,All,24.44,25.57,25.01
+S12000008,East Ayrshire,Local Authority,2014,All,All,All,All,22.97,23.99,23.48
+S12000008,East Ayrshire,Local Authority,2014,All,All,35-64 years,All,22.67,24.08,23.38
+S12000006,Dumfries and Galloway,Local Authority,2014,All,All,35-64 years,All,23.79,25.03,24.41
+S12000010,East Lothian,Local Authority,2014,All,Adults,All,All,23.5,25.91,24.71
+S12000013,Na h-Eileanan Siar,Local Authority,2014,All,With Children,All,All,22.38,25.98,24.18
+S12000042,Dundee City,Local Authority,2014,All,All,All,Male,22.76,24.12,23.44
+S12000008,East Ayrshire,Local Authority,2014,All,Pensioners,All,All,23.39,25.17,24.28
+S12000010,East Lothian,Local Authority,2014,All,All,All,All,22.43,24.89,23.66
+S12000011,East Renfrewshire,Local Authority,2015,All,All,All,All,21.62,23.91,22.76
+S08000022,Highland,NHS Health Board,2016,All,All,All,All,22.45,23.5,22.98
+S12000010,East Lothian,Local Authority,2015,All,All,All,All,22.43,24.47,23.45
+S08000024,Lothian,NHS Health Board,2016,All,All,All,All,22.15,22.97,22.56
+S12000005,Clackmannanshire,Local Authority,2014,All,All,All,All,19.91,22.38,21.15
+S08000016,Borders,NHS Health Board,2015,All,All,All,All,21.27,22.96,22.12
+S12000018,Inverclyde,Local Authority,2014,All,All,All,All,19.74,21.57,20.66
+S08000019,Forth Valley,NHS Health Board,2016,All,All,All,All,22,23.45,22.73
+S12000014,Falkirk,Local Authority,2014,All,All,All,All,20.93,22.5,21.71
+S08000029,Fife,NHS Health Board,2016,All,All,All,All,22.21,23.33,22.77
+S12000013,Na h-Eileanan Siar,Local Authority,2014,All,All,All,All,21.77,23.49,22.63
+S08000020,Grampian,NHS Health Board,2016,All,All,All,All,22.52,23.52,23.02
+S12000049,Glasgow City,Local Authority,2014,All,All,All,All,21.51,22.4,21.96
+S12000048,Perth and Kinross,Local Authority,2015,All,All,All,All,21.93,23.37,22.65
+S12000018,Inverclyde,Local Authority,2017,All,All,All,All,20.85,22.46,21.65
+S12000008,East Ayrshire,Local Authority,2016,All,All,All,All,21.88,23.07,22.47
+S08000015,Ayrshire and Arran,NHS Health Board,2017,All,All,All,All,21.34,22.26,21.8
+S12000030,Stirling,Local Authority,2014,All,All,All,All,22.18,24.15,23.16
+S12000010,East Lothian,Local Authority,2017,All,All,All,All,21.9,23.57,22.74
+S12000033,Aberdeen City,Local Authority,2014,All,All,All,All,21.73,23.1,22.41
+S12000028,South Ayrshire,Local Authority,2017,All,All,All,All,21.4,23.14,22.27
+S12000023,Orkney Islands,Local Authority,2017,All,All,All,All,23.32,26.41,24.86
+S12000036,City of Edinburgh,Local Authority,2016,All,All,All,All,21.86,22.96,22.41
+S08000028,Western Isles,NHS Health Board,2017,All,All,All,All,20.82,22.4,21.61
+S08000024,Lothian,NHS Health Board,2017,All,All,All,All,21.72,22.46,22.09
+S12000041,Angus,Local Authority,2016,All,All,All,All,22.42,24.12,23.27
+S12000034,Aberdeenshire,Local Authority,2016,All,All,All,All,22.43,24.12,23.27
+S08000031,Greater Glasgow and Clyde,NHS Health Board,2015,All,All,All,All,21.57,22.13,21.85
+S12000030,Stirling,Local Authority,2016,All,All,All,All,20.97,22.82,21.9
+S12000020,Moray,Local Authority,2016,All,All,All,All,21.83,23.82,22.83
+S12000006,Dumfries and Galloway,Local Authority,2016,All,All,All,All,21.99,23.24,22.62
+S12000011,East Renfrewshire,Local Authority,2016,All,All,All,All,21.77,23.56,22.66
+S12000018,Inverclyde,Local Authority,2016,All,All,All,All,20.63,22.45,21.54
+S12000034,Aberdeenshire,Local Authority,2017,All,All,All,All,22.46,23.98,23.22
+S12000038,Renfrewshire,Local Authority,2017,All,All,All,All,20.77,22.6,21.69
+S08000022,Highland,NHS Health Board,2014,All,All,All,All,22.26,23.44,22.85
+S12000050,North Lanarkshire,Local Authority,2017,All,All,All,All,21.7,22.87,22.28
+S12000011,East Renfrewshire,Local Authority,2017,All,All,All,All,22.18,24.04,23.11
+S12000040,West Lothian,Local Authority,2017,All,All,All,All,20.77,22.64,21.7
+S08000020,Grampian,NHS Health Board,2014,All,All,All,All,21.98,22.73,22.36
+S12000040,West Lothian,Local Authority,2014,All,All,All,All,21.64,23.97,22.81
+S12000014,Falkirk,Local Authority,2017,All,All,All,All,21.74,23.21,22.47
+S12000045,East Dunbartonshire,Local Authority,2014,All,All,All,All,22.22,24.12,23.17
+S12000006,Dumfries and Galloway,Local Authority,2017,All,All,All,All,21.57,23.19,22.38
+S12000039,West Dunbartonshire,Local Authority,2014,All,All,All,All,21.45,23.16,22.3
+S12000047,Fife,Local Authority,2014,All,All,All,All,22.07,23.27,22.67
+S12000045,East Dunbartonshire,Local Authority,2015,All,All,All,All,21.9,23.67,22.79
+S12000021,North Ayrshire,Local Authority,2015,All,All,All,All,22.59,24.47,23.53
+S08000028,Western Isles,NHS Health Board,2015,All,All,All,All,21.09,23.24,22.17
+S12000042,Dundee City,Local Authority,2015,All,All,All,All,21.18,23.49,22.34
+S12000041,Angus,Local Authority,2015,All,All,All,All,21.41,23.24,22.32
+S08000026,Shetland,NHS Health Board,2015,All,All,All,All,22.34,24.54,23.44
+S12000018,Inverclyde,Local Authority,2015,All,All,All,All,20.44,22.27,21.36
+S12000029,South Lanarkshire,Local Authority,2017,All,All,All,All,25.11,25.86,25.48
+S12000045,East Dunbartonshire,Local Authority,2017,All,All,All,All,24.31,25.54,24.93
+S12000038,Renfrewshire,Local Authority,2017,All,All,All,All,23.81,24.6,24.21
+S12000028,South Ayrshire,Local Authority,2015,All,All,All,All,24.01,25.29,24.65
+S08000030,Tayside,NHS Health Board,2017,All,All,All,All,24.28,24.94,24.61
+S12000049,Glasgow City,Local Authority,2015,All,All,All,All,24.32,24.85,24.59
+S12000013,Na h-Eileanan Siar,Local Authority,2015,All,All,All,All,25.08,26.05,25.57
+S12000021,North Ayrshire,Local Authority,2017,All,All,All,All,23.9,24.89,24.39
+S12000047,Fife,Local Authority,2015,All,All,All,All,25.04,25.78,25.41
+S08000017,Dumfries and Galloway,NHS Health Board,2016,All,All,All,All,24.15,25.11,24.63
+S08000028,Western Isles,NHS Health Board,2016,All,All,All,All,24.82,26.13,25.48
+S08000022,Highland,NHS Health Board,2016,All,All,All,All,24.96,25.56,25.26
+S12000041,Angus,Local Authority,2017,All,All,All,All,24.47,25.57,25.02
+S08000030,Tayside,NHS Health Board,2014,All,All,All,All,24.61,25.27,24.94
+S12000045,East Dunbartonshire,Local Authority,2015,All,All,All,All,24.4,25.45,24.92
+S08000024,Lothian,NHS Health Board,2016,All,All,All,All,24.47,24.84,24.66
+S12000018,Inverclyde,Local Authority,2014,All,All,All,All,24.25,25.41,24.83
+S12000019,Midlothian,Local Authority,2015,All,All,All,All,26.46,27.82,27.14
+S12000011,East Renfrewshire,Local Authority,2014,All,All,All,All,24.9,26.1,25.5
+S12000030,Stirling,Local Authority,2016,All,All,All,All,24.03,25.4,24.71
+S12000041,Angus,Local Authority,2016,All,All,All,All,24.03,25.06,24.54
+S12000011,East Renfrewshire,Local Authority,2017,All,All,All,All,24.29,25.66,24.98
+S12000035,Argyll and Bute,Local Authority,2016,All,All,All,All,25.08,26.01,25.55
+S12000006,Dumfries and Galloway,Local Authority,2017,All,All,All,All,24.88,25.86,25.37
+S12000027,Shetland Islands,Local Authority,2016,All,All,All,All,24.66,25.78,25.22
+S12000039,West Dunbartonshire,Local Authority,2016,All,All,All,All,25.59,26.68,26.13
+S12000023,Orkney Islands,Local Authority,2016,All,All,All,All,24.94,27,25.97
+S08000032,Lanarkshire,NHS Health Board,2014,All,All,All,All,24.99,25.58,25.28
+S12000036,City of Edinburgh,Local Authority,2017,All,All,All,All,24.4,24.87,24.63
+S12000030,Stirling,Local Authority,2017,All,All,All,All,24.35,25.35,24.85
+S12000014,Falkirk,Local Authority,2015,All,All,All,All,25.06,25.89,25.48
+S12000017,Highland,Local Authority,2016,All,All,All,All,24.78,25.53,25.15
+S12000042,Dundee City,Local Authority,2015,All,All,All,All,24.69,26.12,25.4
+S08000020,Grampian,NHS Health Board,2014,All,All,All,All,25.02,25.49,25.25
+S08000028,Western Isles,NHS Health Board,2014,All,All,All,All,24.09,25.68,24.88
+S12000034,Aberdeenshire,Local Authority,2014,All,All,All,All,25.12,25.98,25.55
+S12000039,West Dunbartonshire,Local Authority,2014,All,All,All,All,24.57,25.62,25.1
+S12000038,Renfrewshire,Local Authority,2014,All,All,All,All,24.65,25.49,25.07
+S92000003,Scotland,Scotland,2014,All,All,All,All,25.04,25.21,25.12

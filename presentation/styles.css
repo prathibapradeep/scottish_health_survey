@@ -1,0 +1,15 @@
+slides>slide.title-slide {
+    background-image: url('/Users/jp/Codeclan/codeclan_d10_dashboard_project/presentation/background.png');
+    background-size: 100% 100%;
+}
+slides>slide.title-slide hgroup h1{
+  color: white;
+}
+slides>slide.title-slide p{
+  color: white;
+  font-weight: bold;
+}
+slides>slide. {
+    background-image: url('/Users/jp/Codeclan/codeclan_d10_dashboard_project/presentation/background.png');
+    background-size: 100% 100%;
+}

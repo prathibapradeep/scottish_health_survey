@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&family=Mirza&family=Cookie&display=swap');
+                                       
+  h1 {
+	font-family: 'Cookie', serif;
+	color:#000000;
+	font-size : 50px;  
+  }
+  h2 {
+	font-family: 'Crimson Text', cursive;
+	color:#000000;
+  }
+  h3 {
+	font-family: 'Mirza', cursive;
+	color:#000000;
+  }

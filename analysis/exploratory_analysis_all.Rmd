@@ -1,0 +1,353 @@
+---
+title: "Statistical Analysis for the public health data"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+	echo = FALSE,
+	message = FALSE,
+	warning = FALSE
+)
+```
+
+
+```{r}
+#Load the library files
+library(here)
+library(tidyverse)
+library(ggplot2)
+library(RColorBrewer)
+library(plotly)
+library(lubridate)
+```
+
+```{r}
+#Load the cleaning script
+source (here("data_cleaning_wrangling/life_expectancy.R"))
+```
+
+```{r}
+color_theme <- function() {
+  theme(
+
+    plot.background = element_rect(fill ="white"),
+    plot.title = element_text(size = rel(2)),
+    plot.title.position = "plot",
+
+    panel.border = element_rect(colour = "blue", fill = NA, linetype = 1),
+    panel.background = element_rect(fill = "white"),
+    panel.grid =  element_line(colour = "grey85", linetype = 1, size = 0.5),
+
+    axis.text = element_text(colour = "blue", face = "italic", size = 14),
+    axis.title.y = element_text(colour = "#1B732B" ,  size = 14, angle = 90),
+    axis.title.x = element_text(colour = "#1B732B" ,  size = 14),
+
+
+    legend.box.background = element_rect(),
+    legend.box.margin = margin(6, 6, 6, 6)
+
+  )
+}
+```
+
+```{r}
+#Load the cleaned data
+life_expectancy <- read_csv(here("clean_data/life_expectancy.csv"))
+```
+
+# Life Expectancy
+
+### Plot 1: Life expectancy for Scotland over time (Trend)
+
+```{r}
+
+# this could be coded to allow the user to select age & urban_rural_classification
+p <- life_expectancy_clean %>% 
+  filter(type == "Scotland",
+         age == 0,
+         simd_quintiles == "All",
+         urban_rural_classification == "All") %>%
+  arrange(date_code) %>% 
+  ggplot() +
+  aes(x = date_code, y = le_value, group = sex, colour = sex) +
+  geom_line() +
+  geom_point() +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)) +
+  labs(
+    x = "\nYear",
+    y = "Life Expectancy (years)\n",
+    colour = "Sex"
+  )+
+  color_theme()
+
+ggplotly(p)
+```
+
+### Plot 2a: Comparison of life expectancy for on NHS Health Boards (Rank - Top 5)
+
+```{r}
+p <- life_expectancy_clean %>% 
+  filter(type == "NHS Health Board",
+         age == 0,
+         sex == "All",
+         simd_quintiles == "All",
+         urban_rural_classification == "All",
+         date_code == "2013-2015") %>%
+  arrange(desc(le_value)) %>% 
+  head(n = 5) %>% 
+  ggplot() +
+  aes(x = reorder(name, le_value), y = le_value, fill = le_value) +
+  geom_col(position = "dodge") +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)) +
+  labs(
+    x = "\nLocal authority",
+    y = "Life Epectancy (years)\n",
+    fill = "Sex"
+  )+
+  color_theme()+
+  scale_fill_distiller(palette = "YlGn")
+
+ggplotly(p)
+```
+
+### Plot 2b: Comparison of life expectancy for all local authorities (Rank - Lowest 5)
+
+```{r}
+# this could be coded to allow the user to select local authority or NHS health board, date_code & age
+p <- life_expectancy_clean %>% 
+  filter(type == "Local Authority",
+         age == 0,
+         sex == "All",
+         simd_quintiles == "All",
+         urban_rural_classification == "All",
+         date_code == "2013-2015") %>%
+  arrange(desc(le_value)) %>% 
+  tail(n = 5) %>%
+  ggplot() +
+  aes(x =  reorder(name, le_value), y = le_value, fill = le_value) +
+  geom_col(position = "dodge") +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)) +
+  labs(
+    x = "Local authority",
+    y = "Life Epectancy (years)\n",
+    fill = "Sex"
+  )+
+  color_theme()+
+  scale_fill_distiller(palette = "YlOrRd")
+
+ggplotly(p)
+```
+
+# Smoking Analysis
+
+```{r}
+# Load the cleaned data
+smoking <- read_csv(here("clean_data/smoking.csv")) %>% 
+  mutate(entry_id = row_number())
+```
+
+### Plot 1: Countrywide average smoking rates over time (in %) (Trend)
+
+```{r}
+p <- smoking %>%
+  filter(smokes == "Yes",
+         sex == "All") %>%
+  
+  arrange(date_code) %>% 
+  group_by(date_code, age) %>% 
+  summarise(avg_rate = mean(sm_percent)) %>% 
+  
+
+  ggplot(aes(x = date_code, y = avg_rate, group = age, colour = age)) +
+  geom_point() +
+  geom_line() +
+   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)) +
+   labs(
+    x = "\nYear",
+    y = "Current Smokers (%)\n"
+)+
+  color_theme()
+
+ggplotly(p)
+
+```
+
+### Plot 2a: Smoking rates per Local Authority area, in a 1 year period (Rank - Highest)
+
+```{r}
+#  Highest Smoking rates per Local Authority area, in a 1 year period
+p <- smoking %>% 
+  filter(type == "Local Authority",
+         type_of_tenure == "All",
+         age == "All",
+         household_type == "All",
+         sex == "All",
+         long_term_condition == "All",
+         smokes == "Yes",
+         date_code == "2019"
+  ) %>%
+ group_by(name, sm_percent) %>% 
+  select(name, smokes, sm_percent) %>% 
+  arrange(desc(sm_percent)) %>% 
+head() %>% 
+   ggplot(aes(x = reorder(name, sm_percent), y = sm_percent, fill = sm_percent)) +
+  geom_col() +
+   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)) +
+   labs(
+    x = "\nLocal Authority",
+    y = "2019 Smoking Rate (%)\n")+
+  scale_fill_distiller(palette = "YlGn")+
+  color_theme()
+
+ggplotly(p)
+```
+
+### Plot 2b: Smoking rates per Local Authority area, in a 1 year period (Rank - Lowest)
+
+```{r}
+#  Lowest Smoking rates per Local Authority area, in a 1 year period
+p <- smoking %>% 
+  filter(type == "Local Authority",
+         type_of_tenure == "All",
+         age == "All",
+         household_type == "All",
+         sex == "All",
+         long_term_condition == "All",
+         smokes == "Yes",
+         date_code == "2019"
+  ) %>%
+ group_by(name, sm_percent) %>% 
+  select(name, smokes, sm_percent) %>% 
+  arrange(sm_percent) %>% 
+  head() %>% 
+   ggplot(aes(x = reorder(name, sm_percent), y = sm_percent, fill = sm_percent)) +
+  geom_col() +
+   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)) +
+   labs(
+    x = "\nLocal Authority",
+    y = "2019 Smoking Rate (%)\n")  +
+  scale_fill_distiller(palette = "YlOrRd")+
+  color_theme()
+
+ggplotly(p)
+```
+
+# Drug Abuse Analysis
+
+
+
+```{r}
+#Read-in cleaned data
+drugs <- read_csv(here("clean_data/sdmd_combined_plus_zones.csv"))
+
+```
+
+```{r include=FALSE}
+#Explore/investigate
+str(drugs)
+```
+
+### Plot 1a: Drug abuse over time by number assessed, split by gender (Trend)
+
+```{r}
+p <- drugs %>% 
+  filter(sex != "All") %>% 
+  filter(number_assessed != 0) %>%
+  filter(!is.na(number_assessed)) %>%
+  filter(year != "2013/14") %>% 
+  arrange(year) %>% 
+  group_by(year, sex) %>% 
+  summarise(number_assessed_total = sum(number_assessed)) %>% 
+  ggplot(aes(x = year, y = number_assessed_total, group = sex, colour = sex)) +
+  geom_point() +
+  geom_line()+
+  theme(axis.text.x = element_text(angle = 45, vjust = 0.5, hjust = 1)) +
+  color_theme()+
+   labs(
+    x = "\nYear",
+    y = "Number Assessed\n") 
+
+ggplotly(p)
+```
+
+### Plot 1b: Drug abuse over time by number assessed, split by age group (Trend)
+
+```{r}
+p <- drugs %>% 
+  filter(age != "All" &
+         age != "Unknown" &
+         year != "2013/14") %>% 
+  filter(number_assessed != 0) %>%
+  filter(!is.na(number_assessed)) %>% 
+  arrange(year) %>% 
+  group_by(year, age) %>% 
+  summarise(number_assessed_total = sum(number_assessed), .groups = "drop") %>% 
+  ggplot(aes(x = year, y = number_assessed_total, group = age, colour = age)) +
+  geom_point() +
+  geom_line()+
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)) +
+  color_theme()+
+   labs(
+    x = "\nYear",
+    y = "Number Assessed\n") 
+
+ggplotly(p)
+  
+```
+
+### Plot 2a: Drug abuse by area (average for Scotland could also be added) (Rank - Highest)
+
+```{r}
+
+p <- drugs %>% 
+  filter(type == "Local Authority" &
+         sex == "All" &
+         # age_group ==   &
+         number_assessed != 0 &
+         !is.na(number_assessed)) %>% 
+  group_by(name) %>% 
+  summarise(number_assessed_total = sum(number_assessed)) %>% 
+  arrange (desc(number_assessed_total)) %>% 
+  head(n=5) %>% 
+  ggplot(aes(x = reorder(name,number_assessed_total), y = number_assessed_total, fill = number_assessed_total)) +
+  geom_col() +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1))+
+  color_theme() +
+  scale_fill_distiller(palette = "YlGn")+
+   labs(
+    x = "\nLocal Authority",
+    y = "Number Assessed\n") 
+
+ggplotly(p)
+  
+```
+
+### Plot 2: Drug abuse by area (average for Scotland could also be added) (Rank - Lowest)
+
+```{r}
+
+p <- drugs %>% 
+  filter(type == "Local Authority" &
+         sex == "All" &
+         # age_group ==   &
+         number_assessed != 0 &
+         !is.na(number_assessed)) %>% 
+  group_by(name) %>% 
+  summarise(number_assessed_total = sum(number_assessed)) %>% 
+  arrange (desc(number_assessed_total)) %>% 
+  tail(n=5) %>% 
+  ggplot(aes(x = reorder(name,number_assessed_total), y = number_assessed_total, fill = number_assessed_total)) +
+  geom_col() +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1))+
+  color_theme() +
+  scale_fill_distiller(palette = "YlOrRd")+
+   labs(
+    x = "\nLocal Authority",
+    y = "Number Assessed\n") 
+
+ggplotly(p)
+  
+```

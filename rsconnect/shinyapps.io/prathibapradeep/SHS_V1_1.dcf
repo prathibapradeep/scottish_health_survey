@@ -1,0 +1,14 @@
+name: SHS_V1_1
+title: SHS_V1_1
+username:
+account: prathibapradeep
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4697532
+bundleId: 5056458
+url: https://prathibapradeep.shinyapps.io/SHS_V1_1/
+when: 1632238530.11727
+lastSyncTime: 1632238530.11727
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .gitattributes|documentation/archive/Indicators, Data Sources and Methods.docx|documentation/Indicators, Data Sources and Methods.pages|documentation/Project Description.docx|documentation/public_health_dashboard_wireframe.excalidraw|documentation/public_health_dashboard_wireframe.png|global.R|R/filtering_functions.R|R/helper.R|R/plotting_functions.R|report.Rmd|styles.css|ui_about.R|ui_home.R|ui_map.R|ui_rank.R|ui_trend.R
